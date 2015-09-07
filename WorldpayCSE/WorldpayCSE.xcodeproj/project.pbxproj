@@ -1,0 +1,899 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		767ADFF41B62679C00923BD3 /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 767ADFF51B62679C00923BD3 /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				767ADFF81B62679F00923BD3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+		76D032F51B627A7000091FE6 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 76D032F61B627A7000091FE6 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				76D032F91B627A7500091FE6 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0DB1F8DC222628CDBE7E8C72 /* libPods-WorldpayCSETests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DBF134D6419DC59D8A4CF6 /* libPods-WorldpayCSETests.a */; };
+		7655ACB11B8612D600A1450D /* WPPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7655ACB01B8612D600A1450D /* WPPrivateKey.m */; };
+		767ADFED1B624B6900923BD3 /* WPCardData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76E6A3211B605214003CEE3F /* WPCardData.h */; };
+		767ADFEE1B624B6F00923BD3 /* WPPublicKey.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76E6A3191B605214003CEE3F /* WPPublicKey.h */; };
+		767ADFEF1B624B7300923BD3 /* WPConstants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76E6A3271B605214003CEE3F /* WPConstants.h */; };
+		767ADFF01B624B7600923BD3 /* WPErrorCodes.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76E6A3291B605214003CEE3F /* WPErrorCodes.h */; };
+		767ADFF11B624B7A00923BD3 /* WorldpayCSE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 76E6A3251B605214003CEE3F /* WorldpayCSE.h */; };
+		769816211B68BFBA00A7043B /* NSStringWP.m in Sources */ = {isa = PBXBuildFile; fileRef = 769816201B68BFBA00A7043B /* NSStringWP.m */; };
+		76D033111B62962F00091FE6 /* WPCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D033101B62962F00091FE6 /* WPCardValidator.m */; };
+		76D033121B62962F00091FE6 /* WPCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D033101B62962F00091FE6 /* WPCardValidator.m */; };
+		76D033151B629D5600091FE6 /* WPCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D033141B629D5600091FE6 /* WPCardValidatorTests.m */; };
+		76D033181B62A6D000091FE6 /* NSString+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D033171B62A6D000091FE6 /* NSString+WP.m */; };
+		76D033191B62A6D000091FE6 /* NSString+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D033171B62A6D000091FE6 /* NSString+WP.m */; };
+		76E6A32A1B605214003CEE3F /* NSData+Base64URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3051B605214003CEE3F /* NSData+Base64URL.m */; };
+		76E6A32B1B605214003CEE3F /* NSData+Base64URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3051B605214003CEE3F /* NSData+Base64URL.m */; };
+		76E6A32C1B605214003CEE3F /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3071B605214003CEE3F /* NSDictionary+JSON.m */; };
+		76E6A32D1B605214003CEE3F /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3071B605214003CEE3F /* NSDictionary+JSON.m */; };
+		76E6A32E1B605214003CEE3F /* NSError+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3091B605214003CEE3F /* NSError+WP.m */; };
+		76E6A32F1B605214003CEE3F /* NSError+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3091B605214003CEE3F /* NSError+WP.m */; };
+		76E6A3301B605214003CEE3F /* NSString+Base64URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A30B1B605214003CEE3F /* NSString+Base64URL.m */; };
+		76E6A3311B605214003CEE3F /* NSString+Base64URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A30B1B605214003CEE3F /* NSString+Base64URL.m */; };
+		76E6A3321B605214003CEE3F /* AESGCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A30E1B605214003CEE3F /* AESGCM.m */; };
+		76E6A3331B605214003CEE3F /* AESGCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A30E1B605214003CEE3F /* AESGCM.m */; };
+		76E6A3341B605214003CEE3F /* RSA1_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3101B605214003CEE3F /* RSA1_5.m */; };
+		76E6A3351B605214003CEE3F /* RSA1_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3101B605214003CEE3F /* RSA1_5.m */; };
+		76E6A3361B605214003CEE3F /* WPAESEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3121B605214003CEE3F /* WPAESEncrypter.m */; };
+		76E6A3371B605214003CEE3F /* WPAESEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3121B605214003CEE3F /* WPAESEncrypter.m */; };
+		76E6A3381B605214003CEE3F /* WPCryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3141B605214003CEE3F /* WPCryptoUtils.m */; };
+		76E6A3391B605214003CEE3F /* WPCryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3141B605214003CEE3F /* WPCryptoUtils.m */; };
+		76E6A33A1B605214003CEE3F /* WPKeyGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3161B605214003CEE3F /* WPKeyGen.m */; };
+		76E6A33B1B605214003CEE3F /* WPKeyGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3161B605214003CEE3F /* WPKeyGen.m */; };
+		76E6A33E1B605214003CEE3F /* WPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A31A1B605214003CEE3F /* WPPublicKey.m */; };
+		76E6A33F1B605214003CEE3F /* WPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A31A1B605214003CEE3F /* WPPublicKey.m */; };
+		76E6A3401B605214003CEE3F /* WPRSAEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A31C1B605214003CEE3F /* WPRSAEncrypter.m */; };
+		76E6A3411B605214003CEE3F /* WPRSAEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A31C1B605214003CEE3F /* WPRSAEncrypter.m */; };
+		76E6A3421B605214003CEE3F /* WPJWEObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A31F1B605214003CEE3F /* WPJWEObject.m */; };
+		76E6A3431B605214003CEE3F /* WPJWEObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A31F1B605214003CEE3F /* WPJWEObject.m */; };
+		76E6A3441B605214003CEE3F /* WPCardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3221B605214003CEE3F /* WPCardData.m */; };
+		76E6A3451B605214003CEE3F /* WPCardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3221B605214003CEE3F /* WPCardData.m */; };
+		76E6A3461B605214003CEE3F /* WPJWEHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3241B605214003CEE3F /* WPJWEHeader.m */; };
+		76E6A3471B605214003CEE3F /* WPJWEHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3241B605214003CEE3F /* WPJWEHeader.m */; };
+		76E6A3481B605214003CEE3F /* WorldpayCSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3261B605214003CEE3F /* WorldpayCSE.m */; };
+		76E6A3491B605214003CEE3F /* WorldpayCSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3261B605214003CEE3F /* WorldpayCSE.m */; };
+		76E6A34A1B605214003CEE3F /* WPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3281B605214003CEE3F /* WPConstants.m */; };
+		76E6A34B1B605214003CEE3F /* WPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3281B605214003CEE3F /* WPConstants.m */; };
+		76E6A35F1B605233003CEE3F /* NSDataBase64URLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A34D1B605233003CEE3F /* NSDataBase64URLTests.m */; };
+		76E6A3601B605233003CEE3F /* NSDictionaryJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A34E1B605233003CEE3F /* NSDictionaryJSONTests.m */; };
+		76E6A3611B605233003CEE3F /* NSErrorWPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A34F1B605233003CEE3F /* NSErrorWPTests.m */; };
+		76E6A3621B605233003CEE3F /* NSStringBase64URLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3501B605233003CEE3F /* NSStringBase64URLTests.m */; };
+		76E6A3631B605233003CEE3F /* AESGSMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3521B605233003CEE3F /* AESGSMTests.m */; };
+		76E6A3641B605233003CEE3F /* RSA1_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3531B605233003CEE3F /* RSA1_5Tests.m */; };
+		76E6A3651B605233003CEE3F /* WPAESEncrypterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3541B605233003CEE3F /* WPAESEncrypterTests.m */; };
+		76E6A3661B605233003CEE3F /* WPCryptoUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3551B605233003CEE3F /* WPCryptoUtilsTests.m */; };
+		76E6A3671B605233003CEE3F /* WPKeyGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3561B605233003CEE3F /* WPKeyGenTests.m */; };
+		76E6A3681B605233003CEE3F /* WPRSAEncrypterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3571B605233003CEE3F /* WPRSAEncrypterTests.m */; };
+		76E6A3691B605233003CEE3F /* WPRSAPublicKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A3581B605233003CEE3F /* WPRSAPublicKeyTests.m */; };
+		76E6A36A1B605233003CEE3F /* WPJWEObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A35A1B605233003CEE3F /* WPJWEObjectTests.m */; };
+		76E6A36B1B605233003CEE3F /* WPCardDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A35C1B605233003CEE3F /* WPCardDataTests.m */; };
+		76E6A36C1B605233003CEE3F /* WPJWEHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A35D1B605233003CEE3F /* WPJWEHeaderTests.m */; };
+		76E6A36D1B605233003CEE3F /* WorldpayCSETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E6A35E1B605233003CEE3F /* WorldpayCSETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		762DD3B91B53911100DB3EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 762DD3A41B53911100DB3EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 762DD3AB1B53911100DB3EEB;
+			remoteInfo = WorldpayCSE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		762DD3AA1B53911100DB3EEB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				767ADFF01B624B7600923BD3 /* WPErrorCodes.h in CopyFiles */,
+				767ADFEF1B624B7300923BD3 /* WPConstants.h in CopyFiles */,
+				767ADFEE1B624B6F00923BD3 /* WPPublicKey.h in CopyFiles */,
+				767ADFED1B624B6900923BD3 /* WPCardData.h in CopyFiles */,
+				767ADFF11B624B7A00923BD3 /* WorldpayCSE.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A0A3C242DCC2BA93CC1A035 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DBF134D6419DC59D8A4CF6 /* libPods-WorldpayCSETests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorldpayCSETests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		762DD3AC1B53911100DB3EEB /* libWorldpayCSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWorldpayCSE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		762DD3B71B53911100DB3EEB /* WorldpayCSETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldpayCSETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		762DD3BD1B53911100DB3EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7655ACAF1B8612D600A1450D /* WPPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPPrivateKey.h; sourceTree = "<group>"; };
+		7655ACB01B8612D600A1450D /* WPPrivateKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPrivateKey.m; sourceTree = "<group>"; };
+		769816201B68BFBA00A7043B /* NSStringWP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringWP.m; sourceTree = "<group>"; };
+		76D0330F1B62962F00091FE6 /* WPCardValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCardValidator.h; sourceTree = "<group>"; };
+		76D033101B62962F00091FE6 /* WPCardValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCardValidator.m; sourceTree = "<group>"; };
+		76D033141B629D5600091FE6 /* WPCardValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCardValidatorTests.m; sourceTree = "<group>"; };
+		76D033161B62A6D000091FE6 /* NSString+WP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+WP.h"; sourceTree = "<group>"; };
+		76D033171B62A6D000091FE6 /* NSString+WP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WP.m"; sourceTree = "<group>"; };
+		76E6A3041B605214003CEE3F /* NSData+Base64URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64URL.h"; sourceTree = "<group>"; };
+		76E6A3051B605214003CEE3F /* NSData+Base64URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64URL.m"; sourceTree = "<group>"; };
+		76E6A3061B605214003CEE3F /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		76E6A3071B605214003CEE3F /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		76E6A3081B605214003CEE3F /* NSError+WP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+WP.h"; sourceTree = "<group>"; };
+		76E6A3091B605214003CEE3F /* NSError+WP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+WP.m"; sourceTree = "<group>"; };
+		76E6A30A1B605214003CEE3F /* NSString+Base64URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64URL.h"; sourceTree = "<group>"; };
+		76E6A30B1B605214003CEE3F /* NSString+Base64URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64URL.m"; sourceTree = "<group>"; };
+		76E6A30D1B605214003CEE3F /* AESGCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESGCM.h; sourceTree = "<group>"; };
+		76E6A30E1B605214003CEE3F /* AESGCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESGCM.m; sourceTree = "<group>"; };
+		76E6A30F1B605214003CEE3F /* RSA1_5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA1_5.h; sourceTree = "<group>"; };
+		76E6A3101B605214003CEE3F /* RSA1_5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA1_5.m; sourceTree = "<group>"; };
+		76E6A3111B605214003CEE3F /* WPAESEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAESEncrypter.h; sourceTree = "<group>"; };
+		76E6A3121B605214003CEE3F /* WPAESEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAESEncrypter.m; sourceTree = "<group>"; };
+		76E6A3131B605214003CEE3F /* WPCryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCryptoUtils.h; sourceTree = "<group>"; };
+		76E6A3141B605214003CEE3F /* WPCryptoUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCryptoUtils.m; sourceTree = "<group>"; };
+		76E6A3151B605214003CEE3F /* WPKeyGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPKeyGen.h; sourceTree = "<group>"; };
+		76E6A3161B605214003CEE3F /* WPKeyGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPKeyGen.m; sourceTree = "<group>"; };
+		76E6A3191B605214003CEE3F /* WPPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WPPublicKey.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		76E6A31A1B605214003CEE3F /* WPPublicKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPPublicKey.m; sourceTree = "<group>"; };
+		76E6A31B1B605214003CEE3F /* WPRSAEncrypter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPRSAEncrypter.h; sourceTree = "<group>"; };
+		76E6A31C1B605214003CEE3F /* WPRSAEncrypter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPRSAEncrypter.m; sourceTree = "<group>"; };
+		76E6A31E1B605214003CEE3F /* WPJWEObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPJWEObject.h; sourceTree = "<group>"; };
+		76E6A31F1B605214003CEE3F /* WPJWEObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPJWEObject.m; sourceTree = "<group>"; };
+		76E6A3211B605214003CEE3F /* WPCardData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPCardData.h; sourceTree = "<group>"; };
+		76E6A3221B605214003CEE3F /* WPCardData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCardData.m; sourceTree = "<group>"; };
+		76E6A3231B605214003CEE3F /* WPJWEHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPJWEHeader.h; sourceTree = "<group>"; };
+		76E6A3241B605214003CEE3F /* WPJWEHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPJWEHeader.m; sourceTree = "<group>"; };
+		76E6A3251B605214003CEE3F /* WorldpayCSE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = WorldpayCSE.h; sourceTree = "<group>"; };
+		76E6A3261B605214003CEE3F /* WorldpayCSE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldpayCSE.m; sourceTree = "<group>"; };
+		76E6A3271B605214003CEE3F /* WPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPConstants.h; sourceTree = "<group>"; };
+		76E6A3281B605214003CEE3F /* WPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPConstants.m; sourceTree = "<group>"; };
+		76E6A3291B605214003CEE3F /* WPErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPErrorCodes.h; sourceTree = "<group>"; };
+		76E6A34D1B605233003CEE3F /* NSDataBase64URLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataBase64URLTests.m; sourceTree = "<group>"; };
+		76E6A34E1B605233003CEE3F /* NSDictionaryJSONTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryJSONTests.m; sourceTree = "<group>"; };
+		76E6A34F1B605233003CEE3F /* NSErrorWPTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorWPTests.m; sourceTree = "<group>"; };
+		76E6A3501B605233003CEE3F /* NSStringBase64URLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringBase64URLTests.m; sourceTree = "<group>"; };
+		76E6A3521B605233003CEE3F /* AESGSMTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESGSMTests.m; sourceTree = "<group>"; };
+		76E6A3531B605233003CEE3F /* RSA1_5Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA1_5Tests.m; sourceTree = "<group>"; };
+		76E6A3541B605233003CEE3F /* WPAESEncrypterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAESEncrypterTests.m; sourceTree = "<group>"; };
+		76E6A3551B605233003CEE3F /* WPCryptoUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCryptoUtilsTests.m; sourceTree = "<group>"; };
+		76E6A3561B605233003CEE3F /* WPKeyGenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPKeyGenTests.m; sourceTree = "<group>"; };
+		76E6A3571B605233003CEE3F /* WPRSAEncrypterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPRSAEncrypterTests.m; sourceTree = "<group>"; };
+		76E6A3581B605233003CEE3F /* WPRSAPublicKeyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPRSAPublicKeyTests.m; sourceTree = "<group>"; };
+		76E6A35A1B605233003CEE3F /* WPJWEObjectTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPJWEObjectTests.m; sourceTree = "<group>"; };
+		76E6A35C1B605233003CEE3F /* WPCardDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPCardDataTests.m; sourceTree = "<group>"; };
+		76E6A35D1B605233003CEE3F /* WPJWEHeaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPJWEHeaderTests.m; sourceTree = "<group>"; };
+		76E6A35E1B605233003CEE3F /* WorldpayCSETests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldpayCSETests.m; sourceTree = "<group>"; };
+		E2D86CB049326FE90AA87459 /* Pods-WorldpayCSETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldpayCSETests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorldpayCSETests/Pods-WorldpayCSETests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF42E7892BF1B1268313F3D5 /* Pods-WorldpayCSETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldpayCSETests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorldpayCSETests/Pods-WorldpayCSETests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		762DD3A91B53911100DB3EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762DD3B41B53911100DB3EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB1F8DC222628CDBE7E8C72 /* libPods-WorldpayCSETests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45ABE4EC49977BB58177AE57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2D86CB049326FE90AA87459 /* Pods-WorldpayCSETests.debug.xcconfig */,
+				EF42E7892BF1B1268313F3D5 /* Pods-WorldpayCSETests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		762DD3A31B53911100DB3EEB = {
+			isa = PBXGroup;
+			children = (
+				762DD3AE1B53911100DB3EEB /* WorldpayCSE */,
+				762DD3BB1B53911100DB3EEB /* WorldpayCSETests */,
+				762DD3FC1B5396D100DB3EEB /* Frameworks */,
+				762DD3AD1B53911100DB3EEB /* Products */,
+				45ABE4EC49977BB58177AE57 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		762DD3AD1B53911100DB3EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				762DD3AC1B53911100DB3EEB /* libWorldpayCSE.a */,
+				762DD3B71B53911100DB3EEB /* WorldpayCSETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		762DD3AE1B53911100DB3EEB /* WorldpayCSE */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A3031B605214003CEE3F /* categories */,
+				76E6A30C1B605214003CEE3F /* crypto */,
+				76E6A31D1B605214003CEE3F /* jwe */,
+				76E6A3201B605214003CEE3F /* model */,
+				76E6A3251B605214003CEE3F /* WorldpayCSE.h */,
+				76E6A3261B605214003CEE3F /* WorldpayCSE.m */,
+				76E6A3271B605214003CEE3F /* WPConstants.h */,
+				76E6A3281B605214003CEE3F /* WPConstants.m */,
+				76E6A3291B605214003CEE3F /* WPErrorCodes.h */,
+				76D0330F1B62962F00091FE6 /* WPCardValidator.h */,
+				76D033101B62962F00091FE6 /* WPCardValidator.m */,
+			);
+			path = WorldpayCSE;
+			sourceTree = "<group>";
+		};
+		762DD3BB1B53911100DB3EEB /* WorldpayCSETests */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A34C1B605233003CEE3F /* categories */,
+				76E6A3511B605233003CEE3F /* crypto */,
+				76E6A3591B605233003CEE3F /* jwe */,
+				76E6A35B1B605233003CEE3F /* model */,
+				76D033141B629D5600091FE6 /* WPCardValidatorTests.m */,
+				76E6A35E1B605233003CEE3F /* WorldpayCSETests.m */,
+				762DD3BC1B53911100DB3EEB /* Supporting Files */,
+			);
+			path = WorldpayCSETests;
+			sourceTree = "<group>";
+		};
+		762DD3BC1B53911100DB3EEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				762DD3BD1B53911100DB3EEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		762DD3FC1B5396D100DB3EEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A0A3C242DCC2BA93CC1A035 /* libPods.a */,
+				64DBF134D6419DC59D8A4CF6 /* libPods-WorldpayCSETests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76E6A3031B605214003CEE3F /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A3061B605214003CEE3F /* NSDictionary+JSON.h */,
+				76E6A3071B605214003CEE3F /* NSDictionary+JSON.m */,
+				76E6A3041B605214003CEE3F /* NSData+Base64URL.h */,
+				76E6A3051B605214003CEE3F /* NSData+Base64URL.m */,
+				76E6A30A1B605214003CEE3F /* NSString+Base64URL.h */,
+				76E6A30B1B605214003CEE3F /* NSString+Base64URL.m */,
+				76D033161B62A6D000091FE6 /* NSString+WP.h */,
+				76D033171B62A6D000091FE6 /* NSString+WP.m */,
+				76E6A3081B605214003CEE3F /* NSError+WP.h */,
+				76E6A3091B605214003CEE3F /* NSError+WP.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		76E6A30C1B605214003CEE3F /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A30D1B605214003CEE3F /* AESGCM.h */,
+				76E6A30E1B605214003CEE3F /* AESGCM.m */,
+				76E6A30F1B605214003CEE3F /* RSA1_5.h */,
+				76E6A3101B605214003CEE3F /* RSA1_5.m */,
+				76E6A3111B605214003CEE3F /* WPAESEncrypter.h */,
+				76E6A3121B605214003CEE3F /* WPAESEncrypter.m */,
+				76E6A3131B605214003CEE3F /* WPCryptoUtils.h */,
+				76E6A3141B605214003CEE3F /* WPCryptoUtils.m */,
+				76E6A3151B605214003CEE3F /* WPKeyGen.h */,
+				76E6A3161B605214003CEE3F /* WPKeyGen.m */,
+				76E6A3191B605214003CEE3F /* WPPublicKey.h */,
+				76E6A31A1B605214003CEE3F /* WPPublicKey.m */,
+				76E6A31B1B605214003CEE3F /* WPRSAEncrypter.h */,
+				76E6A31C1B605214003CEE3F /* WPRSAEncrypter.m */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		76E6A31D1B605214003CEE3F /* jwe */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A31E1B605214003CEE3F /* WPJWEObject.h */,
+				76E6A31F1B605214003CEE3F /* WPJWEObject.m */,
+			);
+			path = jwe;
+			sourceTree = "<group>";
+		};
+		76E6A3201B605214003CEE3F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A3211B605214003CEE3F /* WPCardData.h */,
+				76E6A3221B605214003CEE3F /* WPCardData.m */,
+				76E6A3231B605214003CEE3F /* WPJWEHeader.h */,
+				76E6A3241B605214003CEE3F /* WPJWEHeader.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		76E6A34C1B605233003CEE3F /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A34D1B605233003CEE3F /* NSDataBase64URLTests.m */,
+				76E6A34E1B605233003CEE3F /* NSDictionaryJSONTests.m */,
+				76E6A34F1B605233003CEE3F /* NSErrorWPTests.m */,
+				76E6A3501B605233003CEE3F /* NSStringBase64URLTests.m */,
+				769816201B68BFBA00A7043B /* NSStringWP.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		76E6A3511B605233003CEE3F /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				7655ACAF1B8612D600A1450D /* WPPrivateKey.h */,
+				7655ACB01B8612D600A1450D /* WPPrivateKey.m */,
+				76E6A3521B605233003CEE3F /* AESGSMTests.m */,
+				76E6A3531B605233003CEE3F /* RSA1_5Tests.m */,
+				76E6A3541B605233003CEE3F /* WPAESEncrypterTests.m */,
+				76E6A3551B605233003CEE3F /* WPCryptoUtilsTests.m */,
+				76E6A3561B605233003CEE3F /* WPKeyGenTests.m */,
+				76E6A3571B605233003CEE3F /* WPRSAEncrypterTests.m */,
+				76E6A3581B605233003CEE3F /* WPRSAPublicKeyTests.m */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		76E6A3591B605233003CEE3F /* jwe */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A35A1B605233003CEE3F /* WPJWEObjectTests.m */,
+			);
+			path = jwe;
+			sourceTree = "<group>";
+		};
+		76E6A35B1B605233003CEE3F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				76E6A35C1B605233003CEE3F /* WPCardDataTests.m */,
+				76E6A35D1B605233003CEE3F /* WPJWEHeaderTests.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		762DD3AB1B53911100DB3EEB /* WorldpayCSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762DD3C01B53911100DB3EEB /* Build configuration list for PBXNativeTarget "WorldpayCSE" */;
+			buildPhases = (
+				762DD3A81B53911100DB3EEB /* Sources */,
+				762DD3A91B53911100DB3EEB /* Frameworks */,
+				762DD3AA1B53911100DB3EEB /* CopyFiles */,
+				76648B701B5BA33400DD7EC4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldpayCSE;
+			productName = WorldpayCSE;
+			productReference = 762DD3AC1B53911100DB3EEB /* libWorldpayCSE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		762DD3B61B53911100DB3EEB /* WorldpayCSETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 762DD3C31B53911100DB3EEB /* Build configuration list for PBXNativeTarget "WorldpayCSETests" */;
+			buildPhases = (
+				37BAC88470B86DC6123D70F6 /* Check Pods Manifest.lock */,
+				762DD3B31B53911100DB3EEB /* Sources */,
+				762DD3B41B53911100DB3EEB /* Frameworks */,
+				762DD3B51B53911100DB3EEB /* Resources */,
+				F5FABA0DB068BFA612FCE766 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				762DD3BA1B53911100DB3EEB /* PBXTargetDependency */,
+			);
+			name = WorldpayCSETests;
+			productName = WorldpayCSETests;
+			productReference = 762DD3B71B53911100DB3EEB /* WorldpayCSETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		762DD3A41B53911100DB3EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Worldpay;
+				TargetAttributes = {
+					762DD3AB1B53911100DB3EEB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					762DD3B61B53911100DB3EEB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					767ADFF41B62679C00923BD3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					76D032F51B627A7000091FE6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 762DD3A71B53911100DB3EEB /* Build configuration list for PBXProject "WorldpayCSE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 762DD3A31B53911100DB3EEB;
+			productRefGroup = 762DD3AD1B53911100DB3EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				762DD3AB1B53911100DB3EEB /* WorldpayCSE */,
+				762DD3B61B53911100DB3EEB /* WorldpayCSETests */,
+				767ADFF41B62679C00923BD3 /* Documentation */,
+				76D032F51B627A7000091FE6 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		762DD3B51B53911100DB3EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37BAC88470B86DC6123D70F6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76648B701B5BA33400DD7EC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nFRAMEWORK_VERSION_INTERNAL=\"1.0.0\"\nif [[ -n \"$CSE_FRAMEWORK_VERSION\" ]]\nthen\n    FRAMEWORK_VERSION_INTERNAL=\"${CSE_FRAMEWORK_VERSION}\"\nfi\n\nFRAMEWORK_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the paths\nmkdir -p \"${FRAMEWORK_PATH}/Headers\"\nmkdir -p \"${FRAMEWORK_PATH}/Modules\"\n\n# Copy the public headers into the framework\ncp -a \"${BUILT_PRODUCTS_DIR}/include/${PRODUCT_NAME}/\" \\\n\"${FRAMEWORK_PATH}/Headers\"\n\n# Copy the library\ncp \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${FRAMEWORK_PATH}/${PRODUCT_NAME}\"\nchmod +x \"${FRAMEWORK_PATH}/${PRODUCT_NAME}\"\n\n# Create the plist\ncat > \"${FRAMEWORK_PATH}/Info.plist\" <<EOF\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n<key>CFBundleDevelopmentRegion</key>\n<string>en</string>\n<key>CFBundleExecutable</key>\n<string>${PRODUCT_NAME}</string>\n<key>CFBundleIdentifier</key>\n<string>com.worldpay.cse.sdk</string>\n<key>CFBundleInfoDictionaryVersion</key>\n<string>6.0</string>\n<key>CFBundleName</key>\n<string>${PRODUCT_NAME}</string>\n<key>CFBundlePackageType</key>\n<string>FMWK</string>\n<key>CFBundleShortVersionString</key>\n<string>${FRAMEWORK_VERSION_INTERNAL}</string>\n<key>CFBundleSignature</key>\n<string>????</string>\n<key>CFBundleSupportedPlatforms</key>\n<array>\n<string>iPhoneOS</string>\n</array>\n<key>CFBundleVersion</key>\n<string>20</string>\n<key>DTPlatformName</key>\n<string>iphoneos</string>\n<key>MinimumOSVersion</key>\n<string>${IPHONEOS_DEPLOYMENT_TARGET}</string>\n<key>NSHumanReadableCopyright</key>\n<string>Copyright © 2015 Worldpay. All rights reserved.</string>\n<key>UIDeviceFamily</key>\n<array>\n<integer>1</integer>\n<integer>2</integer>\n</array>\n</dict>\n</plist>\nEOF\n\n# Create the module\ncat > \"${FRAMEWORK_PATH}/Modules/module.modulemap\" <<EOF\nframework module ${PRODUCT_NAME} {\n    umbrella header \"${PRODUCT_NAME}.h\"\n    \n    export *\n    module * { export * }\n}\nEOF\n\n\n";
+		};
+		767ADFF81B62679F00923BD3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nAPPLEDOCPATH=\"${BUILT_PRODUCTS_DIR}/appledoc\"\nDOCSPATH=\"${PROJECT_DIR}/documentation\"\nHEADERSPATH=\"${BUILT_PRODUCTS_DIR}/Headers/\"\n\nrm -fr \"${APPLEDOCPATH}\" \"${DOCSPATH}\" \"${PROJECT_DIR}/documentation.zip\" \"${HEADERSPATH}\"\nmkdir \"${DOCSPATH}\" \"${HEADERSPATH}\"\n\n# copy header files to create docs\ncp \"${PROJECT_DIR}/WorldpayCSE/WorldpayCSE.h\" \\\n\"${PROJECT_DIR}/WorldpayCSE/WPConstants.h\" \\\n\"${PROJECT_DIR}/WorldpayCSE/WPErrorCodes.h\" \\\n\"${PROJECT_DIR}/WorldpayCSE/crypto/WPPublicKey.h\" \\\n\"${PROJECT_DIR}/WorldpayCSE/model/WPCardData.h\" \\\n\"${HEADERSPATH}\"\n\n# build appledoc\ngit clone git://github.com/tomaz/appledoc.git \"${APPLEDOCPATH}\"\ncd \"${APPLEDOCPATH}\" && mkdir -p bin/templates\nsh install-appledoc.sh -b \"${APPLEDOCPATH}/bin\" -t \"${APPLEDOCPATH}/bin/templates\"\n\n\n# generate documentation\n\"${APPLEDOCPATH}/bin/appledoc\" \\\n--project-name \"Worldpay Client Side Encryption (CSE) SDK\" \\\n--project-company \"Worldpay\" \\\n--company-id \"com.worldpay\" \\\n--output \"${DOCSPATH}\" \\\n--logformat xcode \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--merge-categories \\\n--exit-threshold 2 \\\n--docset-platform-family iphoneos \\\n\"${HEADERSPATH}\"\n\ncd \"${BUILT_PRODUCTS_DIR}\"\nzip -1 -r \"${PROJECT_DIR}/documentation.zip\" \"${DOCSPATH}\"\n";
+		};
+		76D032F91B627A7500091FE6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nFRAMEWORK_VERSION_INTERNAL=\"1.0.0\"\nif [[ -n \"$CSE_FRAMEWORK_VERSION\" ]]\nthen\n    FRAMEWORK_VERSION_INTERNAL=\"${CSE_FRAMEWORK_VERSION}\"\nfi\n\nLIBNAME=\"WorldpayCSE\"\nXCODEPROJECT=\"${PROJECT_DIR}/WorldpayCSE.xcworkspace\"\nXCODESCHEME=\"$LIBNAME\"\nDERIVEDDATAPATH=\"${BUILT_PRODUCTS_DIR}\"\nPRODUCTSPATH=\"${DERIVEDDATAPATH}/Build/Products\"\n\n# clean up\nrm -fr \"${DERIVEDDATAPATH}\" \"${LIBNAME}.framework\" \"${PROJECT_DIR}/${LIBNAME}.framework\".zip \"${PROJECT_DIR}/${LIBNAME}.framework\"\n\n# compile for simulator\nxcodebuild -workspace \"${XCODEPROJECT}\" -scheme \"${XCODESCHEME}\" -configuration Release -sdk iphonesimulator  -derivedDataPath \"${DERIVEDDATAPATH}\" build CSE_FRAMEWORK_VERSION=\"$FRAMEWORK_VERSION_INTERNAL\"\n\n# compile for real devices\nxcodebuild -workspace \"${XCODEPROJECT}\" -scheme \"${XCODESCHEME}\" -configuration Release -sdk iphoneos  -derivedDataPath \"${DERIVEDDATAPATH}\" build CSE_FRAMEWORK_VERSION=\"$FRAMEWORK_VERSION_INTERNAL\"\n\nrm -f \"${PRODUCTSPATH}/Release-iphoneos/${LIBNAME}.framework/${LIBNAME}\"\n\n# create the fat binary\nxcrun lipo -create \"${PRODUCTSPATH}/Release-iphoneos/lib${LIBNAME}.a\" \\\n\"${PRODUCTSPATH}/Release-iphonesimulator/lib${LIBNAME}.a\" \\\n-output \"${PRODUCTSPATH}/Release-iphoneos/${LIBNAME}.framework/${LIBNAME}\"\n\n# make executable\nchmod +x \"${PRODUCTSPATH}/Release-iphoneos/${LIBNAME}.framework/${LIBNAME}\"\n\nmv \"${PRODUCTSPATH}/Release-iphoneos/${LIBNAME}.framework\" \"${PROJECT_DIR}/\"\n\ncd \"${PROJECT_DIR}/\"\n\nzip -1 -r \"${LIBNAME}.framework.zip\" \"${LIBNAME}.framework\"";
+		};
+		F5FABA0DB068BFA612FCE766 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorldpayCSETests/Pods-WorldpayCSETests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		762DD3A81B53911100DB3EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E6A32C1B605214003CEE3F /* NSDictionary+JSON.m in Sources */,
+				76E6A32E1B605214003CEE3F /* NSError+WP.m in Sources */,
+				76E6A3421B605214003CEE3F /* WPJWEObject.m in Sources */,
+				76E6A3341B605214003CEE3F /* RSA1_5.m in Sources */,
+				76E6A3381B605214003CEE3F /* WPCryptoUtils.m in Sources */,
+				76E6A34A1B605214003CEE3F /* WPConstants.m in Sources */,
+				76E6A3481B605214003CEE3F /* WorldpayCSE.m in Sources */,
+				76E6A3461B605214003CEE3F /* WPJWEHeader.m in Sources */,
+				76E6A3401B605214003CEE3F /* WPRSAEncrypter.m in Sources */,
+				76D033111B62962F00091FE6 /* WPCardValidator.m in Sources */,
+				76D033181B62A6D000091FE6 /* NSString+WP.m in Sources */,
+				76E6A3301B605214003CEE3F /* NSString+Base64URL.m in Sources */,
+				76E6A32A1B605214003CEE3F /* NSData+Base64URL.m in Sources */,
+				76E6A3361B605214003CEE3F /* WPAESEncrypter.m in Sources */,
+				76E6A33A1B605214003CEE3F /* WPKeyGen.m in Sources */,
+				76E6A3321B605214003CEE3F /* AESGCM.m in Sources */,
+				76E6A3441B605214003CEE3F /* WPCardData.m in Sources */,
+				76E6A33E1B605214003CEE3F /* WPPublicKey.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		762DD3B31B53911100DB3EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E6A3611B605233003CEE3F /* NSErrorWPTests.m in Sources */,
+				76E6A3671B605233003CEE3F /* WPKeyGenTests.m in Sources */,
+				76E6A3331B605214003CEE3F /* AESGCM.m in Sources */,
+				76E6A3621B605233003CEE3F /* NSStringBase64URLTests.m in Sources */,
+				76E6A3691B605233003CEE3F /* WPRSAPublicKeyTests.m in Sources */,
+				76E6A33B1B605214003CEE3F /* WPKeyGen.m in Sources */,
+				76E6A36B1B605233003CEE3F /* WPCardDataTests.m in Sources */,
+				76E6A3411B605214003CEE3F /* WPRSAEncrypter.m in Sources */,
+				76E6A36A1B605233003CEE3F /* WPJWEObjectTests.m in Sources */,
+				76E6A3681B605233003CEE3F /* WPRSAEncrypterTests.m in Sources */,
+				76E6A3471B605214003CEE3F /* WPJWEHeader.m in Sources */,
+				76E6A35F1B605233003CEE3F /* NSDataBase64URLTests.m in Sources */,
+				76E6A36D1B605233003CEE3F /* WorldpayCSETests.m in Sources */,
+				76D033191B62A6D000091FE6 /* NSString+WP.m in Sources */,
+				76E6A3391B605214003CEE3F /* WPCryptoUtils.m in Sources */,
+				76E6A34B1B605214003CEE3F /* WPConstants.m in Sources */,
+				76D033151B629D5600091FE6 /* WPCardValidatorTests.m in Sources */,
+				76E6A36C1B605233003CEE3F /* WPJWEHeaderTests.m in Sources */,
+				769816211B68BFBA00A7043B /* NSStringWP.m in Sources */,
+				76E6A32F1B605214003CEE3F /* NSError+WP.m in Sources */,
+				76E6A33F1B605214003CEE3F /* WPPublicKey.m in Sources */,
+				76E6A32D1B605214003CEE3F /* NSDictionary+JSON.m in Sources */,
+				76E6A3631B605233003CEE3F /* AESGSMTests.m in Sources */,
+				76D033121B62962F00091FE6 /* WPCardValidator.m in Sources */,
+				76E6A3601B605233003CEE3F /* NSDictionaryJSONTests.m in Sources */,
+				76E6A3371B605214003CEE3F /* WPAESEncrypter.m in Sources */,
+				76E6A3451B605214003CEE3F /* WPCardData.m in Sources */,
+				76E6A3491B605214003CEE3F /* WorldpayCSE.m in Sources */,
+				76E6A3641B605233003CEE3F /* RSA1_5Tests.m in Sources */,
+				76E6A32B1B605214003CEE3F /* NSData+Base64URL.m in Sources */,
+				76E6A3311B605214003CEE3F /* NSString+Base64URL.m in Sources */,
+				76E6A3351B605214003CEE3F /* RSA1_5.m in Sources */,
+				7655ACB11B8612D600A1450D /* WPPrivateKey.m in Sources */,
+				76E6A3431B605214003CEE3F /* WPJWEObject.m in Sources */,
+				76E6A3651B605233003CEE3F /* WPAESEncrypterTests.m in Sources */,
+				76E6A3661B605233003CEE3F /* WPCryptoUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		762DD3BA1B53911100DB3EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 762DD3AB1B53911100DB3EEB /* WorldpayCSE */;
+			targetProxy = 762DD3B91B53911100DB3EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		762DD3BE1B53911100DB3EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Thirdparty/OpenSSL/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					openssl,
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		762DD3BF1B53911100DB3EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Thirdparty/OpenSSL/";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					openssl,
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		762DD3C11B53911100DB3EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = WorldpayCSE;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		762DD3C21B53911100DB3EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = WorldpayCSE;
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		762DD3C41B53911100DB3EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D86CB049326FE90AA87459 /* Pods-WorldpayCSETests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Thirdparty/OCMock",
+				);
+				INFOPLIST_FILE = WorldpayCSETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = WorldpayCSETests;
+			};
+			name = Debug;
+		};
+		762DD3C51B53911100DB3EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF42E7892BF1B1268313F3D5 /* Pods-WorldpayCSETests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/Thirdparty/OCMock",
+				);
+				INFOPLIST_FILE = WorldpayCSETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = WorldpayCSETests;
+			};
+			name = Release;
+		};
+		767ADFF61B62679C00923BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		767ADFF71B62679C00923BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76D032F71B627A7000091FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76D032F81B627A7000091FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		762DD3A71B53911100DB3EEB /* Build configuration list for PBXProject "WorldpayCSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762DD3BE1B53911100DB3EEB /* Debug */,
+				762DD3BF1B53911100DB3EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762DD3C01B53911100DB3EEB /* Build configuration list for PBXNativeTarget "WorldpayCSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762DD3C11B53911100DB3EEB /* Debug */,
+				762DD3C21B53911100DB3EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		762DD3C31B53911100DB3EEB /* Build configuration list for PBXNativeTarget "WorldpayCSETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				762DD3C41B53911100DB3EEB /* Debug */,
+				762DD3C51B53911100DB3EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767ADFF51B62679C00923BD3 /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767ADFF61B62679C00923BD3 /* Debug */,
+				767ADFF71B62679C00923BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D032F61B627A7000091FE6 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D032F71B627A7000091FE6 /* Debug */,
+				76D032F81B627A7000091FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 762DD3A41B53911100DB3EEB /* Project object */;
+}

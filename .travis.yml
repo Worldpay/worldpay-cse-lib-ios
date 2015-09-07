@@ -1,0 +1,14 @@
+osx_image: xcode6.4
+before_install:
+  - sudo gem install slather
+
+after_success: 
+  - slather
+  - bash <(curl -s https://codecov.io/bash)
+
+language: objective-c
+podfile:
+  - WorldpayCSE/Podfile
+
+script:
+  - xctool -workspace WorldpayCSE/WorldpayCSE.xcworkspace -scheme WorldpayCSE -sdk iphonesimulator build test ONLY_ACTIVE_ARCH=NO

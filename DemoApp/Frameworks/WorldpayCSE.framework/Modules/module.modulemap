@@ -1,0 +1,6 @@
+framework module WorldpayCSE {
+    umbrella header "WorldpayCSE.h"
+    
+    export *
+    module * { export * }
+}

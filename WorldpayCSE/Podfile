@@ -1,0 +1,3 @@
+target :WorldpayCSETests do
+    pod 'OCMock'
+end
