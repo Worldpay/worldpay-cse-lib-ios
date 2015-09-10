@@ -12,3 +12,4 @@ podfile:
 
 script:
   - xctool -workspace WorldpayCSE/WorldpayCSE.xcworkspace -scheme WorldpayCSE -sdk iphonesimulator build test ONLY_ACTIVE_ARCH=NO
+
