@@ -1,9 +1,8 @@
 Pod::Spec.new do |s|
   s.name              = 'WorldpayCSE'
-  s.version           = '1.0.0'
-  s.summary           = 'Worldpay Client Side encryption library'
-  s.license           = 'MIT'
-  s.license           = { :type => 'MIT', :file => 'LICENSE' }
+  s.version           = '1.0.2'
+  s.summary           = 'Worldpay Client Side Encryption library'
+  s.license           = { :type => 'Worldpay', :file => 'LICENSE' }
   s.author            = 'Worldpay'
   s.homepage          = 'https://github.com/Worldpay/worldpay-cse-lib-ios'
   s.description       = 'Worldpay Client Side encryption library for easy integration with your existing and new applications.'

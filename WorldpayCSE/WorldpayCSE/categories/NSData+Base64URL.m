@@ -3,8 +3,9 @@
 //  WorldpayCSE
 //
 //  Created by Nicolae Ghimbovschi on 15/07/2015.
-//  Copyright (c) 2015 Worldpay. All rights reserved.
+//  Copyright (c) 2015 WorldPay. All rights reserved.
 //
+//  License information can be found in the LICENSE file
 
 #import "NSData+Base64URL.h"
 #import "NSString+Base64URL.h"

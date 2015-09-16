@@ -3,8 +3,9 @@
 //  WorldpayCSE
 //
 //  Created by Nicolae Ghimbovschi on 16/07/2015.
-//  Copyright (c) 2015 Worldpay. All rights reserved.
+//  Copyright (c) 2015 WorldPay. All rights reserved.
 //
+//  License information can be found in the LICENSE file
 
 #import "NSError+WP.h"
 #import "WPConstants.h"

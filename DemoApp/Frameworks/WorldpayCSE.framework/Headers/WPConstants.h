@@ -3,8 +3,9 @@
 //  WorldpayCSE
 //
 //  Created by Nicolae Ghimbovschi on 13/07/2015.
-//  Copyright (c) 2015 Worldpay. All rights reserved.
+//  Copyright (c) 2015 WorldPay. All rights reserved.
 //
+//  License information can be found in the LICENSE file
 
 #ifndef WorldpayCSE_Constants_h
 #define WorldpayCSE_Constants_h

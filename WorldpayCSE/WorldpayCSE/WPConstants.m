@@ -3,14 +3,15 @@
 //  WorldpayCSE
 //
 //  Created by Nicolae Ghimbovschi on 13/07/2015.
-//  Copyright (c) 2015 Worldpay. All rights reserved.
+//  Copyright (c) 2015 WorldPay. All rights reserved.
 //
+//  License information can be found in the LICENSE file
 
 #import <Foundation/Foundation.h>
 
 NSString* const kWPPublicKeyComponentsSeparator = @"#";
 
-NSString* const kWPJWEHeaderLibraryVersionValue = @"1.0.0";
+NSString* const kWPJWEHeaderLibraryVersionValue = @"1.0.2";
 NSString* const kWPJWEHeaderApiVersionValue = @"1.0";
 NSString* const kWPJWEHeaderChannelValue = @"ios";
 
