@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "762DD3AB1B53911100DB3EEB"
-               BuildableName = "libWorldpayCSE.a"
+               BlueprintIdentifier = "769D8AE91D22D918009B0AB6"
+               BuildableName = "WorldpayCSE.framework"
                BlueprintName = "WorldpayCSE"
-               ReferencedContainer = "container:WorldpayCSE.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "762DD3B61B53911100DB3EEB"
-               BuildableName = "WorldpayCSETests.xctest"
-               BlueprintName = "WorldpayCSETests"
                ReferencedContainer = "container:WorldpayCSE.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "762DD3B61B53911100DB3EEB"
+               BlueprintIdentifier = "769D8AF31D22D918009B0AB6"
                BuildableName = "WorldpayCSETests.xctest"
                BlueprintName = "WorldpayCSETests"
                ReferencedContainer = "container:WorldpayCSE.xcodeproj">
@@ -56,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "762DD3AB1B53911100DB3EEB"
-            BuildableName = "libWorldpayCSE.a"
+            BlueprintIdentifier = "769D8AE91D22D918009B0AB6"
+            BuildableName = "WorldpayCSE.framework"
             BlueprintName = "WorldpayCSE"
             ReferencedContainer = "container:WorldpayCSE.xcodeproj">
          </BuildableReference>
@@ -78,8 +64,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "762DD3AB1B53911100DB3EEB"
-            BuildableName = "libWorldpayCSE.a"
+            BlueprintIdentifier = "769D8AE91D22D918009B0AB6"
+            BuildableName = "WorldpayCSE.framework"
             BlueprintName = "WorldpayCSE"
             ReferencedContainer = "container:WorldpayCSE.xcodeproj">
          </BuildableReference>
@@ -96,8 +82,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "762DD3AB1B53911100DB3EEB"
-            BuildableName = "libWorldpayCSE.a"
+            BlueprintIdentifier = "769D8AE91D22D918009B0AB6"
+            BuildableName = "WorldpayCSE.framework"
             BlueprintName = "WorldpayCSE"
             ReferencedContainer = "container:WorldpayCSE.xcodeproj">
          </BuildableReference>

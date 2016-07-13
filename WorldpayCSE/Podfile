@@ -1,3 +1,6 @@
-target :WorldpayCSETests do
+target 'WorldpayCSE' do
+  target 'WorldpayCSETests' do
+    inherit! :search_paths
     pod 'OCMock'
+  end
 end

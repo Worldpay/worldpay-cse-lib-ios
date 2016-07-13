@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'WorldpayCSE'
-  s.version           = '1.0.2'
+  s.version           = '1.0.3'
   s.summary           = 'Worldpay Client Side Encryption library'
   s.license           = { :type => 'Worldpay', :file => 'LICENSE' }
   s.author            = 'Worldpay'

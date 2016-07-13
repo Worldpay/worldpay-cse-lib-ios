@@ -11,7 +11,7 @@
 
 NSString* const kWPPublicKeyComponentsSeparator = @"#";
 
-NSString* const kWPJWEHeaderLibraryVersionValue = @"1.0.2";
+NSString* const kWPJWEHeaderLibraryVersionValue = @"1.0.3";
 NSString* const kWPJWEHeaderApiVersionValue = @"1.0";
 NSString* const kWPJWEHeaderChannelValue = @"ios";
 

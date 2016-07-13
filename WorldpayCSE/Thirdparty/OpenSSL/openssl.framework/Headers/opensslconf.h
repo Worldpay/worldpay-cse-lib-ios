@@ -107,8 +107,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/Users/nghimbovschi/Projects/WorldPay/mobilesdk-ios/OpenSSL/bin/iPhoneSimulator8.4-i386.sdk/lib/engines"
-#define OPENSSLDIR "/Users/nghimbovschi/Projects/WorldPay/mobilesdk-ios/OpenSSL/bin/iPhoneSimulator8.4-i386.sdk"
+#define ENGINESDIR "/Users/nghimbovschi/Projects/WorldPay/mobilesdk-ios/WorldpayCSE/Thirdparty/OpenSSL/bin/iPhoneSimulator9.3-i386.sdk/lib/engines"
+#define OPENSSLDIR "/Users/nghimbovschi/Projects/WorldPay/mobilesdk-ios/WorldpayCSE/Thirdparty/OpenSSL/bin/iPhoneSimulator9.3-i386.sdk"
 #endif
 #endif
 

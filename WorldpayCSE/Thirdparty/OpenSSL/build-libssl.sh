@@ -101,6 +101,16 @@ do
 	elif [ "${ARCH}" == "x86_64" ]; then
 	    ./Configure darwin64-x86_64-cc --openssldir="${CURRENTPATH}/bin/${PLATFORM}${SDKVERSION}-${ARCH}.sdk" > "${LOG}" 2>&1
     else
+
+    	case "${ARCH}" in
+    		"armv7"|"armv7s"|"arm64")
+				export CC="${BUILD_TOOLS}/usr/bin/gcc -arch ${ARCH} -fembed-bitcode"
+				;;
+			*)
+				export CC="${BUILD_TOOLS}/usr/bin/gcc -arch ${ARCH}"
+				;;
+		esac
+
 	    ./Configure iphoneos-cross --openssldir="${CURRENTPATH}/bin/${PLATFORM}${SDKVERSION}-${ARCH}.sdk" > "${LOG}" 2>&1
     fi
     

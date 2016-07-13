@@ -66,51 +66,6 @@
  
  @endcode
  
- Swift 1.2 example usage:
- 
- @code
- 
-     var error : NSError?
-     let wpCSE : WorldpayCSE = WorldpayCSE()
- 
-      // set card data
-     let cardData : WPCardData = WPCardData()
-     cardData.cardHolderName = "John Doe"
-     cardData.cardNumber = "4444333322221111"
-     cardData.expiryMonth = "11"
-     cardData.expiryYear = "2020"
-     cardData.cvc = "123"
-
-     wpCSE.setPublicKey("1#10001#00ccca2c4ef80be7f7a98d5e0eef7e5e6eafe700ef054c07fa73cf86cd78d1" +
-                        "41f923cff2fb70afb40be36ec78c7a334ef23451c34cc8df03c2f496cd7f4fcccfd35a" +
-                        "ba72417c859d7e5e960a5d1667010bb6d9d87b12d836405a5fb11ba28bb3a5e98e1c89" +
-                        "d065fc47de9d11bfac053b3d6550207752724d9fa31ec2255d4952a0dd0dc4f2be8a66" +
-                        "9b48eb247a1df5d94d921435af66588568999e6a984152c53af211aab64edcd94a0ce1" +
-                        "aceb66c50c0d3c074bac30d6f0ba81a367a03c3b94f17a6b896d34360dd7f459b71555" +
-                        "5dc08ece11fc451ffe26a089a93122a699958d2ab8a4da4d2586474fc6e777a558d802" +
-                        "381488c24a74cff4fcce3104e727ede3", error: &error)
- 
-     if (error != nil) {
-        // handle error
-     }
- 
-     // encrypt card data and validate
-     let encryptedData = wpCSE.encrypt(cardData, error: &error)
-     
-     if (error != nil) {
-         // handle error
-         
-         let errorCode = WPErrorCode(rawValue: (UInt)(error!.code))
-         if errorCode == WPErrorCode.InvalidCardData {
-             let cardValidationErrors: AnyObject? = error!.userInfo?[kWPErrorDetailsKey];
-             // handle card validation errors
-         }
-     }
-
- 
- 
- @endcode
-
  Swift 2.0 example usage:
  
  @code

@@ -1,5 +1,7 @@
 #!/bin/sh
 
+sh build-libssl.sh
+
 PRODUCT_NAME="openssl"
 FRAMEWORK_VERSION="1.0.2d"
 FRAMEWORK_PATH="${PRODUCT_NAME}.framework"

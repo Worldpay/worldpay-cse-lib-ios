@@ -36,7 +36,7 @@
 /**
   Encrypts the payload.
  
-  It uses RSA 1.5 to encrypt the AES key, and AES25 GCM tp encrypt the payload.
+  It uses RSA 1.5 to encrypt the AES key, and AES25 GCM to encrypt the payload.
  
   Possible error codes:
 
