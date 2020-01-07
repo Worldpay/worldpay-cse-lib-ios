@@ -148,7 +148,7 @@ NSString* const kCardNumberValidLenRegexPart = @"12,20";
 - (WPCardValidatorError)validateCardHolderName:(NSString *)cardHolderName {
     if (![cardHolderName isEmpty]) {
         if ([self matchValue:cardHolderName
-            withRegexPattern:@"^.{1,30}$"]) {
+            withRegexPattern:@"^.{1,80}$"]) {
             return WPCardValidatorErrorNone;
         }
         
