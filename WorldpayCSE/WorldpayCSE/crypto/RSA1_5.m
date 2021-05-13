@@ -38,13 +38,7 @@
     BN_hex2bn(&modulusBN, [modulusHex cStringUsingEncoding:NSUTF8StringEncoding]);
     
     RSA *rsa = RSA_new();
-    rsa->e = exponentBN;
-    rsa->n = modulusBN;
-    rsa->iqmp = NULL;
-    rsa->d = NULL;
-    rsa->p = NULL;
-    rsa->q = NULL;
-    
+    RSA_set0_key(rsa, modulusBN, exponentBN, NULL);
     return rsa;
 }
 

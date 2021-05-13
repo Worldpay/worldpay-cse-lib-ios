@@ -1,0 +1,11 @@
+name: WorldpayCSE
+
+options:
+  bundleIdPrefix: com.revolut
+  minimumXcodeGenVersion: 2.18.0
+
+targets:
+  Dummy:
+    type: framework
+    platform: iOS
+    deploymentTarget: "10.0"

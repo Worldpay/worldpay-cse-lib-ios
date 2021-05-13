@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/WorldpayCSE/WorldpayCSE.framework
+${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework

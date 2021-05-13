@@ -1,0 +1,22 @@
+{
+  "name": "OpenSSL-Universal",
+  "version": "1.1.1100",
+  "summary": "Revolut - OpenSSL-Universal",
+  "description": "Revolut - OpenSSL-Universal",
+  "homepage": "https://bitbucket.org/revolut/revolut-ios",
+  "source": {
+    "git": "https://bitbucket.org/revolut/revolut-ios"
+  },
+  "license": {
+    "type": "Proprietary"
+  },
+  "authors": {
+    "Revolut": "team@revolut.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "Carthage/Build/OpenSSL.xcframework"
+  ]
+}

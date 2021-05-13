@@ -1,0 +1,1700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C1D72BC345233EADF30A97D462F723B7 /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+				DAEA2BAAFED7B7865CB41712646E4160 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		004143FEBA52A56C33E5302E32A3961E /* OCMInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2469A3075A898E8D9EFBE5DE8C5E1 /* OCMInvocationMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		03C90603116B3DCB3DEB20CF694D6FD1 /* OCMNonRetainingObjectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB0D8DA6EBB1DD08F02638656238ED /* OCMNonRetainingObjectReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		06BBDCD9AD5C441CEC7BF33737C996DD /* OCMConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25385C62FAF4EAE0650F7BC3E02F1560 /* OCMConstraint.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		08807197ED98A014AEA1DBEFCC51FA51 /* WPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 418B5464B16505F0B4FE2F2C7509D0AC /* WPConstants.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0C2ADFCBA08883225F1E71214F5F7024 /* OCMInvocationStub.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DC5A4E033820D82B478E550CAD4A2D /* OCMInvocationStub.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E3277669888BAD63A9E42613B79F892 /* NSObject+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F95DEA527329B2E9170D4E9B1CF8CB7 /* NSObject+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		11B99950370AD7DB1872A8FA5E5868B5 /* NSObject+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0663B535FF2230121BE5D848A5F811 /* NSObject+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		12E47F18953F1E18EDB7CD9EE897BF23 /* WPKeyGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 623A9985B2819307E102531E3451FA55 /* WPKeyGen.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		13BCC6A6BC84E59D637A18DD5BAE79BA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060B70D5093765BC70F274BD337DD27D /* OCMock.framework */; };
+		13D5E1209FB8D1616DCB99497D4D81E4 /* OCMObjectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D51E52F55A7454313D1DEC913AED05 /* OCMObjectReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1485A79D551A418D9AF6DAA627279088 /* OCMVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 58691C240B8002AB818F47582C690D9B /* OCMVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		165A852B544CF29828C4CC5767607CC9 /* WPCardData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA48E36EEB17739E4E71AA8C60DB29B /* WPCardData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D29507C7AB770107335A0385F79F53D /* OCMock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A71A7817AAABC5B92F17514765F770DE /* OCMock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EE832435F09689DD5E7F4247EA90000 /* NSInvocation+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC520A2FD8D5AF8DBDDC0AE0DD66C48 /* NSInvocation+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2030B75B0568119D6BF9C2BDF0305CE3 /* WorldpayCSE.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EB74BD90F6CFCE4BE7C1CD5B8E9BFC /* WorldpayCSE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2094476AE639808DD909FC000A008FBA /* OCMInvocationExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = FBFD767B9988219414897DE5E6A8FFB6 /* OCMInvocationExpectation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2301F1DB2051B4D248CD76590D33476A /* NSMethodSignature+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EE5ABC426693C773F00EF1B4CBF964 /* NSMethodSignature+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		240D293C87F90A16C0090E687BBC05D5 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 709FAF44BED016701BCF32773AD0B6FD /* OCMRealObjectForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		243F49E07A5BEB1C85492B427DB697BF /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4883188C377C4075E9C7E49EA2AA3BE1 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2584D28C6F615F47CF80670615A4E5EB /* WPJWEObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85A68FC6C733FA0F9A22787820898C4D /* WPJWEObjectTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		25BC5F84A5551090053674E6C861B42B /* OCMBlockArgCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 758BC5A46908BD49A3FB77AEE45807EA /* OCMBlockArgCaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		26350F4277A2F1D51391DC9DCFA6CD00 /* NSValue+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F75AB8370816959B78AD243E2906873 /* NSValue+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26C8186094557492C8CD935F8D3A2FF4 /* OCMExceptionReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = D7272675A279F446D3CDA6B380023695 /* OCMExceptionReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2888AFC018FA7A1B0F7972EC964B5E45 /* OCPartialMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C9487BF35BA5A893694CDB975BF72D5C /* OCPartialMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A6D8544F099CA9472B63861A7A8A2CA /* WPAESEncrypterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 121DD3DBAE7B38EDEF7E912596605507 /* WPAESEncrypterTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2BD0474F0B1B68E07813E58B9897AADA /* WPRSAEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA6BCF93E24723C1DB9DAFED7012B00F /* WPRSAEncrypter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BF54A2ED4C074D1E7361D56FBEF2DBD /* NSData+Base64URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DB30CA457248765E4733B05E5D8F3D /* NSData+Base64URL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DEFE619F600595C31D24D2D41C65AC1 /* RSA1_5.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CCFAE0FE69C251338AD2297334214C /* RSA1_5.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2E3708BDB3AC838683BD39B97E721FEB /* OCMPassByRefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = E949348E1155A17E18AD7BF5F27ABB1F /* OCMPassByRefSetter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F2FC18BD00C4B387CB416B09406205C /* OCMArg.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DD160B4E7B35D7264DE837235E7A7C /* OCMArg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FEA3B51D5C8897F7B40B28961C662F3 /* OCMFunctionsPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7636E3DE67CE04A388342D942BD9ADA9 /* OCMFunctionsPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		368CA44F71CA29BB32D27231E786A683 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC5AEF5202426B168B7CF1A7C464CDA /* OCMBoxedReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		399757B983FEA4D89FF9CD41382A9553 /* OCMRealObjectForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9634449C7779031E7252186568467F75 /* OCMRealObjectForwarder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BAA5134145F5D79830FCC50ED8E09D4 /* OCMConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F80CE4E2A5D4FCAE3818DEA62B83EBDA /* OCMConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBC1100A1245BD91B7EB72350CE2D1C /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AA43A1ACF0FDA4C2B6869CD56F0AB3 /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D62CCC330DC865AC193F678A39D541E /* WPRSAEncrypterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E483EE40BC28730733C8FBBB387DA2A9 /* WPRSAEncrypterTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3EE812FB8D62EBCEE6FA998BB8336F0F /* OCMFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = D37CDD79C1413BF93ABD3EA557EFC91E /* OCMFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4051EA46A6B53556AA6C58AB9B78F911 /* NSString+Base64URL.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8D095B321803C64A86EC83B70BDB70 /* NSString+Base64URL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4301F0E1E773E0B40233452E3E1BBE71 /* OCPartialMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6E301BEA49755780879DB447116C63 /* OCPartialMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		441830178ED895131858812EA1F473F3 /* WPJWEHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D33DCC9B2E57A3E989959A23E426CB /* WPJWEHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44E113646EB3469F1F558A5EAF676C22 /* OCMMacroState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D186C4DC44B3260945FCE2A7B7F5BF1 /* OCMMacroState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4683623A6811AF0C61E4E595C516B675 /* OCProtocolMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A6E6326DD14A4FE3A05BE60C9DB936 /* OCProtocolMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4834B1385C3B1134B2DD18EB0610D1E7 /* OCMQuantifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7B5BB2EE8F4B570B9A1F83FED348AE /* OCMQuantifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4ADE7A7488A957576A0B71586677C4B1 /* WPCardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C86C71C98A70417A3C9FDF84BE18B0 /* WPCardData.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4EAB16A5E7BECD99FD81F3BF38A9AACD /* OCMNotificationPoster.h in Headers */ = {isa = PBXBuildFile; fileRef = 896B4D6C5B56031C02009EC1AB799268 /* OCMNotificationPoster.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F313B3857DC5569CEB2E8DF983253E6 /* WorldpayCSETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A69A0C32A1D0FC6298E6DB36395091 /* WorldpayCSETests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4FADFD2663AFAAC8AC255E142840D98D /* WPCardValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA8E662A7C3E535C242A3400C90F829 /* WPCardValidator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C0C7308975F3CD18082C7065AF82CFA /* WPRSAEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF99A5BDDD500287211736109AE907C /* WPRSAEncrypter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5C42D86C5393A0460BE6CE9EC00974DD /* OCMIndirectReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A1BC892EEA213728162E5682FFAE9A /* OCMIndirectReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E17D1AF087FE454DEB37816DE4CDB51 /* WPJWEObject.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7079BB26AA802B5CAF65E7F42DE81C /* WPJWEObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FF4772C36C77DF44043E8E4930D59CC /* OCMVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE72F6C267948463C6103E3A4B377C /* OCMVerifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		60CA64AA9E4CBF16D4F5EB8C6D3DBCDD /* OCMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A42E9FEF755351532E31359AAFE0AC96 /* OCMock-dummy.m */; };
+		63603D9F1CAD799DBC905540F2209B84 /* OCMPassByRefSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = C32C418752C7AAE5614B09CD213C3C79 /* OCMPassByRefSetter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6421D5409CA22B1E2A3D65B57741F8FB /* WPErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = CEAA0BDD9E0010CA7E55ADA33F859945 /* WPErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6498A4A6BC9DAF699DA58D58B5DCB4DD /* OCMStubRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDD92A2FE6EC489BFB4401E868D07A7 /* OCMStubRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64B0082A9D9999619433248FF66A5563 /* OCMObserverRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA7CDA7CC12FE7BF570611424730374 /* OCMObserverRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6657A2FFB193C3D6B2725B44223CD79F /* OCMIndirectReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F775F8C1231874F09BF65D51F2ADE92 /* OCMIndirectReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6B1307E4546586291C706A04B1594F49 /* NSStringWP.m in Sources */ = {isa = PBXBuildFile; fileRef = A46CFDB0719FBF232D921781C9615D12 /* NSStringWP.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6D71353CE017FB40945DDDB9526B14EF /* WorldpayCSE-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7136FC8B2D0C4798367CDBC5624F646 /* WorldpayCSE-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCD67412CDCA4B5AC17784D16470855 /* OCMMacroState.h in Headers */ = {isa = PBXBuildFile; fileRef = 41490FEDD5258204A7A908C23DF28C53 /* OCMMacroState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		729E9FF877B21F8FD9D55E9D3FBA8DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6D0A549AE0268565E25A08000E949B /* Foundation.framework */; };
+		748D5F3D6386A6939E9E185C7FD15467 /* OCObserverMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C603D780290A8A9C2B2F2FAC2D34181A /* OCObserverMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		766A695A7AFFBF0ED75E8B03A569C878 /* WPJWEObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CED7FFE37120402665A8ADBA40B3B4 /* WPJWEObject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76CC1E8591AA91BFB8FD415C9843CB74 /* WorldpayCSE.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E4B153BF5D714FA1CAE9F0EF1BBCCD /* WorldpayCSE.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77141C8E520F6A190CE524533F686E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6D0A549AE0268565E25A08000E949B /* Foundation.framework */; };
+		7793FE54505CE2FE11891DB20AFF9FD4 /* OCMNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0224ED7936FC48BB48A94A0C6BA2A4 /* OCMNotificationPoster.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		78F6C1EBBBACAE6890BEE2A0761AD2B4 /* OCMInvocationMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A9BE68120D0B1FB40A2F83921CD23E /* OCMInvocationMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B62652358190F23037D1ABE316090D7 /* NSString+WP.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDBEB2A35543F578D00A0F4AB0C5239 /* NSString+WP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B8054BED7489B4EBF661C7F3BD325DD /* WPAESEncrypter.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F6060F98B9643363A599E0C8E4AA4D /* WPAESEncrypter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7BBAB073705FA31AD1715F87957FA633 /* OCMBlockArgCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = E7809406350EF97A1929A47F5B67B194 /* OCMBlockArgCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83F4CFE3C94236BA76A44C1F3E37183F /* OCMExceptionReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85061A5ED6CB9AA54B3E0495BD193049 /* OCMExceptionReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		87DE5058B49854E31F1044B5290B05E9 /* OCMInvocationExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1383EB7F005A1B516024099136944002 /* OCMInvocationExpectation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8CA0C051A06654EE4921BC1024E29262 /* WPCardValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94120B7D3B6C67A9EDF2822ADF2C9091 /* WPCardValidatorTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8EDBE729CEBB7E487F3D776FF881D6B4 /* NSString+Base64URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA01416058833FBB845619EFD9FE1AE /* NSString+Base64URL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8EDDDBE578B0023002C6D207CCFEB1F4 /* AESGCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C93EB73B25820BCA0D4117AFDA281E /* AESGCM.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F07CB758CC6462C6BE52C976A5AB66A /* NSNotificationCenter+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E764B27B0AC3808EC0316C09B33E08 /* NSNotificationCenter+OCMAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90161A069C820E2E471AE18015C6AD1D /* Pods-Dummy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9D51135E6C3BFF4EECB6A44A406607 /* Pods-Dummy-dummy.m */; };
+		91117483CACEB86A37276736B95621D8 /* OCMLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6890940C845FF3E0AEC2B29B4077A6FD /* OCMLocation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9179F7389AA88FE3B7E0A3489F783032 /* WPPrivateKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B651494CBA8D0E348A51ACC5CA9B63 /* WPPrivateKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95AF9CF3D43DDDCF16313BDF5D189A7B /* NSData+Base64URL.h in Headers */ = {isa = PBXBuildFile; fileRef = C627BC4728D494D0B8ABF2CC6F8F4052 /* NSData+Base64URL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95EB5D0B159DAE8682A2540F09244B15 /* AESGCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CDDD746747AB1D6457E6D809B0D1B40 /* AESGCM.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9658794471D5D61D47A1A9BFFD5ACA0D /* OCClassMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AA696E43DFFE5A54FEA33E230D8EB19 /* OCClassMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96E9A32BA8BB2A2A9E6B4A86A91BC2FD /* OCMArg.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AA973C331151BA438FEB4B3FA05CD7 /* OCMArg.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97B0B97A247A94796B80615A5B6581A8 /* OCMockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 107090F3D131350B6A8233E6F63ED9B6 /* OCMockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD04939B677C24E5A5954DC18B289EA /* OCMArgAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 635AF8ACB4B383601600E40D55CD1419 /* OCMArgAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B562CDF1CACF7FD8E238D1554B2D204 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0058ADA2C74EE2FA80748A10CB198636 /* XCTest.framework */; };
+		9C2F2B2107B864040DB20CF5ED22957D /* OCMRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 2937CAD0C907E7341AE9D229C2535BE9 /* OCMRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E060F5A5FA5812617943034D9058406 /* WPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 474C551BFDE53BF5E0DF3918AC9EE86E /* WPConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9DD04A8844133DC24A79D759612AF4 /* OCMBlockCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EBED91DE271D80067631DC5AC623E3 /* OCMBlockCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A18FF1ACFFE2801026F61C0705A33C88 /* OCMLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = ADC4E5E2A251ED4871310A41EBE571DB /* OCMLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4C2E3F2C636E1651CF69186CE155350 /* NSString+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = 432838A96A99E03B14E54F43E9AFA90C /* NSString+WP.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A6BA7547BF14B126C4793B5941D96E7E /* OCMRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D8DD73240CC8CCD2264DF2E64A53C3 /* OCMRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A8EFDDF3AB2932C8703947F2BEF7952B /* WorldpayCSE-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB1E6977D9FB21F3E93625D44F12ED1 /* WorldpayCSE-dummy.m */; };
+		A9356B8084965972D46F0518EFCFA61C /* OCMBlockCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1093EB448448B412F784D8845C7026 /* OCMBlockCaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AB3C1AA762D8EFE83824E8377346AACB /* AESGSMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E006DD4B821AB24C36C3697F2DB51C4 /* AESGSMTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ABF1CA8DF3B1EDC332C064EB6AF2CE29 /* OCMObjectReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 904D16F397C0A04003691B2406B3FEC0 /* OCMObjectReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD0085DB2DFEC28E97E79EC1879BF4FE /* WPPublicKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CDF0CB468C57357F60529BC5F0E89 /* WPPublicKey.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AE4797A6AF46655217AFADFEDA055AA6 /* WPCardDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774269D4C930F71DD8DD95CB92814181 /* WPCardDataTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0601BA92F8071E62750DDC197AF3773 /* NSDataBase64URLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070DE7712594E0512C7E317F902E7AF1 /* NSDataBase64URLTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0AA7CF733C751B9E666779876383C49 /* WPAESEncrypter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED2E41E0C2E05786486761979A3C080 /* WPAESEncrypter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3EBC4589675F6CCAD27F10FA9701D09 /* WPCryptoUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F12D9ACDEA675FB052305F15C236CAE2 /* WPCryptoUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B607C1062F7E551F12A3B21E5C7B0E42 /* WorldpayCSE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924E445854A0A6C535384B8216929005 /* WorldpayCSE.framework */; };
+		B64BEE275231A1BF85A6D19705073E86 /* OCMock.h in Headers */ = {isa = PBXBuildFile; fileRef = F401FC6D93E70FB1DDAFDD580846ADA9 /* OCMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B660894F515F705C348F88DE323028B3 /* OCObserverMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 90556B093F0BBBEF2487B7D6774188D4 /* OCObserverMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBFD996A6D0C203DB44E6726F303CC8B /* NSDictionary+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1CD927598C02D9726D3371F663CD50 /* NSDictionary+JSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BDB1922B62110B77B98C887127A00EC2 /* OCMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F55C51A2B8D11AA6C6D4241CB159CA /* OCMockObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB93E47E00FB3C7CCBFE6828151814D /* WPPrivateKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FD4CAF89D5E6B8069B08E51269278A /* WPPrivateKey.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1667CCEDC69192BC8EB56C4F4CF8B2F /* WPCardValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D0A7C5249CAE082D21E09CFC37CFAA /* WPCardValidator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C3297A41A2D1C4738D5B4F532A169905 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0DFDF308ED580307C49DB71F668A8 /* NSDictionary+JSON.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C39FC4AE1FEFDD8F90F3B8D024B2270F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6D0A549AE0268565E25A08000E949B /* Foundation.framework */; };
+		C3CB6934EB88C4D495960210F916062A /* WPRSAPublicKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E15558CD93065DC9DDCBDDCC58CE /* WPRSAPublicKeyTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C4DDE5E614A7B5C6BD06B96F5A9734D6 /* OCMNonRetainingObjectReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8A003E064A332626A2475A5CE9A525 /* OCMNonRetainingObjectReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5C45A5C41FB79C8C089327FBF21D53D /* NSError+WP.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A4713DB022D966D6846CA3835451A8 /* NSError+WP.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6E9B0BB337847C894E2F2BDE7F90D70 /* OCMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4319A2535DEBE171117A97A994396 /* OCMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C8024212DE514679AEBD9FAE37FCA063 /* Pods-Dummy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93285C09955C122F44B2D9F06F8DD1B2 /* Pods-Dummy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA2E38521ECD86FD2ED363919E8D58B1 /* OCMExpectationRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD303B041C47E03336BD76E5FDA9B3C /* OCMExpectationRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D16187BE24578CA9BEED15CA8B177FAC /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC33478DF27DA20DAC3825D42D3BF62 /* NSMethodSignature+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2864E607FDB8A191ED0D93A85AF652B /* OCMExpectationRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BB18271DEFEFC430D0E5F4E114EB2B /* OCMExpectationRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D52B7A85965204C6C621553D3FEA2C74 /* NSErrorWPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 242699CFFFC0B1AF7FBB17DF9C62D216 /* NSErrorWPTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5CABCE8F84338F0BBCA1076C90EC1C3 /* OCMBoxedReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B704DA543FA09C2645233CD297FD97D0 /* OCMBoxedReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6C497AFC0CBF00937CE0038B40F62B5 /* WPKeyGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FADEA58C43652F4FABB9154AFBD79A5 /* WPKeyGen.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6E19627816A75243CB74B2557429484 /* RSA1_5.h in Headers */ = {isa = PBXBuildFile; fileRef = F101DB687ECBB6025D8AFFE8AAB615F6 /* RSA1_5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D79FC473D0EBD2EF7A9B91225761D4BC /* OCMQuantifier.h in Headers */ = {isa = PBXBuildFile; fileRef = D0396823E37C87240E171F6DCF1EE5E6 /* OCMQuantifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB128FD048E99897F62861E035EC475B /* WPJWEHeaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37029A11C652AAD60ADA14861F5DAA5A /* WPJWEHeaderTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE82B690D3FCA0C9E5F33C958BCEBDFC /* OCMStubRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B445DBAE34F1BE5CACBE60B1502B22 /* OCMStubRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE8574341AABD9D671509F5047000FA2 /* WPPublicKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 365862A43FDD480B5A1CF4B1927F688B /* WPPublicKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEBDF62414E9C26A55791FE51E186BD8 /* OCMFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A866F9FA906B195847381BCBB18DFD /* OCMFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E24950B0CDDFB89713CAEDCB7DF5BF40 /* WPCryptoUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A093C3617C94CE20FDF94AA9BC2C9113 /* WPCryptoUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E61CDE5D657725A2D5949D28730C1428 /* OCClassMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C82923882E4DA1318910C94BD23601A /* OCClassMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E69A2358BA6A370B5EB357CCD0EFA634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6D0A549AE0268565E25A08000E949B /* Foundation.framework */; };
+		E7B514690C6DF9D5F57A0109EC4DB718 /* OCMArgAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 424DAEC560A867F0133BCE9ACE93E229 /* OCMArgAction.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7EA7894EDCFEEEFDFDBED481E0AE9C2 /* NSStringBase64URLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6470F42861F20E5B092E02E697C27 /* NSStringBase64URLTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EC04071B83484554212740B9107D400C /* NSError+WP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCC6EE464DCD80E472D8821B068212 /* NSError+WP.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ED9B0A5B1D5117A15379637321134752 /* RSA1_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BADCB2A09CF5B372434EA50E9C7320A /* RSA1_5Tests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE96841D85328486C3EB16D0A1BAFB66 /* WPJWEHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = AC56156D5DC3EB106034C2AC7364B2CB /* WPJWEHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EF25E233FD332F355A065925D20AC6D8 /* OCProtocolMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B0B7CD1DD3DEB9F7EA072F92EF44F0 /* OCProtocolMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F1C057AB08CA38D3E9DCFF625ED229F3 /* WPCryptoUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A215550301D128F447EED34CDB900F8B /* WPCryptoUtilsTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F32FBD5E704C3DDDDB1B97D449FA17A8 /* NSDictionaryJSONTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0533FA6F5E6B9840EB161D6E2AEA2117 /* NSDictionaryJSONTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC9C73E6B1EFD46F4FEDF74939AF25BF /* NSValue+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F76B4B277F9D69EBAE30BF411FD206AD /* NSValue+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FCEC48BF806D2514D3DD8B9E5A6DAEFE /* OCMObserverRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D24EDB08C9D412D5452F81036EC9897 /* OCMObserverRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FD921643A7B79AA15B4470865A302FDE /* WPKeyGenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DA2A65EA3520B4E4846A199CD5B965 /* WPKeyGenTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE499273CD5FDF2978647397C340D169 /* NSNotificationCenter+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F222FA4E3611F9E9412FAA101677DB /* NSNotificationCenter+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6443B0DFDBD363019CF3CA74B0A02C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95125A05C41CD82B02C3D62956C8FC82;
+			remoteInfo = WorldpayCSE;
+		};
+		C878F25BECE2175103DAC45CD391BAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95125A05C41CD82B02C3D62956C8FC82;
+			remoteInfo = WorldpayCSE;
+		};
+		CBC10FE46F69C286BAE844FE9472C478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		EDCF073AAE7AE4F2CD2330C4D97BB937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C260B5A26D3CD54F215E5E39371483B6;
+			remoteInfo = OCMock;
+		};
+		FAF30D623D9FFF4B968F237A97D8A10B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0058ADA2C74EE2FA80748A10CB198636 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00FD4CAF89D5E6B8069B08E51269278A /* WPPrivateKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPPrivateKey.m; sourceTree = "<group>"; };
+		0353836754BF13D132B1103298AD4121 /* WorldpayCSE.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WorldpayCSE.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
+		0533FA6F5E6B9840EB161D6E2AEA2117 /* NSDictionaryJSONTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryJSONTests.m; sourceTree = "<group>"; };
+		060B70D5093765BC70F274BD337DD27D /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		070DE7712594E0512C7E317F902E7AF1 /* NSDataBase64URLTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSDataBase64URLTests.m; sourceTree = "<group>"; };
+		07A6E6326DD14A4FE3A05BE60C9DB936 /* OCProtocolMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCProtocolMockObject.m; path = Source/OCMock/OCProtocolMockObject.m; sourceTree = "<group>"; };
+		0A0224ED7936FC48BB48A94A0C6BA2A4 /* OCMNotificationPoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMNotificationPoster.m; path = Source/OCMock/OCMNotificationPoster.m; sourceTree = "<group>"; };
+		0CDDD746747AB1D6457E6D809B0D1B40 /* AESGCM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AESGCM.h; sourceTree = "<group>"; };
+		0CE0DFDF308ED580307C49DB71F668A8 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		0DA01416058833FBB845619EFD9FE1AE /* NSString+Base64URL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64URL.m"; sourceTree = "<group>"; };
+		0DB1E6977D9FB21F3E93625D44F12ED1 /* WorldpayCSE-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WorldpayCSE-dummy.m"; sourceTree = "<group>"; };
+		0F775F8C1231874F09BF65D51F2ADE92 /* OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMIndirectReturnValueProvider.m; path = Source/OCMock/OCMIndirectReturnValueProvider.m; sourceTree = "<group>"; };
+		0FA8E662A7C3E535C242A3400C90F829 /* WPCardValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPCardValidator.h; path = WorldpayCSE/WorldpayCSE/WPCardValidator.h; sourceTree = "<group>"; };
+		107090F3D131350B6A8233E6F63ED9B6 /* OCMockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockMacros.h; path = Source/OCMock/OCMockMacros.h; sourceTree = "<group>"; };
+		10E3CEF1D13E2244A3E608429F210D10 /* WorldpayCSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WorldpayCSE.framework; path = WorldpayCSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10EC30CE3F94138DB1D94B9F108160E1 /* WorldpayCSE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WorldpayCSE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		121DD3DBAE7B38EDEF7E912596605507 /* WPAESEncrypterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPAESEncrypterTests.m; sourceTree = "<group>"; };
+		1383EB7F005A1B516024099136944002 /* OCMInvocationExpectation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationExpectation.m; path = Source/OCMock/OCMInvocationExpectation.m; sourceTree = "<group>"; };
+		153AF101AB66997B12AF1AE25F804C3B /* WorldpayCSE.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WorldpayCSE.modulemap; sourceTree = "<group>"; };
+		16A9BE68120D0B1FB40A2F83921CD23E /* OCMInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationMatcher.h; path = Source/OCMock/OCMInvocationMatcher.h; sourceTree = "<group>"; };
+		1C82923882E4DA1318910C94BD23601A /* OCClassMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCClassMockObject.m; path = Source/OCMock/OCClassMockObject.m; sourceTree = "<group>"; };
+		1DFF3995008EABA611EAAE74A17A777F /* OCMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMock.debug.xcconfig; sourceTree = "<group>"; };
+		1F7B5BB2EE8F4B570B9A1F83FED348AE /* OCMQuantifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMQuantifier.m; path = Source/OCMock/OCMQuantifier.m; sourceTree = "<group>"; };
+		21B0E15558CD93065DC9DDCBDDCC58CE /* WPRSAPublicKeyTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPRSAPublicKeyTests.m; sourceTree = "<group>"; };
+		240E471DC8A001D16CC599DFAFE3B0E5 /* WorldpayCSE-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WorldpayCSE-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
+		242699CFFFC0B1AF7FBB17DF9C62D216 /* NSErrorWPTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSErrorWPTests.m; sourceTree = "<group>"; };
+		24C93EB73B25820BCA0D4117AFDA281E /* AESGCM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AESGCM.m; sourceTree = "<group>"; };
+		25385C62FAF4EAE0650F7BC3E02F1560 /* OCMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMConstraint.m; path = Source/OCMock/OCMConstraint.m; sourceTree = "<group>"; };
+		26D33DCC9B2E57A3E989959A23E426CB /* WPJWEHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPJWEHeader.h; sourceTree = "<group>"; };
+		28C86C71C98A70417A3C9FDF84BE18B0 /* WPCardData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPCardData.m; sourceTree = "<group>"; };
+		2937CAD0C907E7341AE9D229C2535BE9 /* OCMRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRecorder.h; path = Source/OCMock/OCMRecorder.h; sourceTree = "<group>"; };
+		2AA696E43DFFE5A54FEA33E230D8EB19 /* OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCClassMockObject.h; path = Source/OCMock/OCClassMockObject.h; sourceTree = "<group>"; };
+		2B85AC1C75FDA2B399523F1855410B9D /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Carthage/Build/OpenSSL.xcframework; sourceTree = "<group>"; };
+		2B8D6E36FF57C46CD3BEA514618253C4 /* WorldpayCSE-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorldpayCSE-prefix.pch"; sourceTree = "<group>"; };
+		2BDFC187270304D19E1265C5E8197A09 /* WorldpayCSE.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WorldpayCSE.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C87F96351AB91B34C3AF1B2B6950763 /* OCMock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OCMock-Info.plist"; sourceTree = "<group>"; };
+		2CB8AA3B86280ADF4E9CE7563AE27B03 /* Pods-Dummy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Dummy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2EC5AEF5202426B168B7CF1A7C464CDA /* OCMBoxedReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBoxedReturnValueProvider.m; path = Source/OCMock/OCMBoxedReturnValueProvider.m; sourceTree = "<group>"; };
+		2F75AB8370816959B78AD243E2906873 /* NSValue+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+OCMAdditions.h"; path = "Source/OCMock/NSValue+OCMAdditions.h"; sourceTree = "<group>"; };
+		33E4B153BF5D714FA1CAE9F0EF1BBCCD /* WorldpayCSE.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WorldpayCSE.m; path = WorldpayCSE/WorldpayCSE/WorldpayCSE.m; sourceTree = "<group>"; };
+		365862A43FDD480B5A1CF4B1927F688B /* WPPublicKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPPublicKey.h; sourceTree = "<group>"; };
+		37029A11C652AAD60ADA14861F5DAA5A /* WPJWEHeaderTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPJWEHeaderTests.m; sourceTree = "<group>"; };
+		3AD303B041C47E03336BD76E5FDA9B3C /* OCMExpectationRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExpectationRecorder.h; path = Source/OCMock/OCMExpectationRecorder.h; sourceTree = "<group>"; };
+		3FADEA58C43652F4FABB9154AFBD79A5 /* WPKeyGen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPKeyGen.h; sourceTree = "<group>"; };
+		40DD160B4E7B35D7264DE837235E7A7C /* OCMArg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = Source/OCMock/OCMArg.h; sourceTree = "<group>"; };
+		41490FEDD5258204A7A908C23DF28C53 /* OCMMacroState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMMacroState.h; path = Source/OCMock/OCMMacroState.h; sourceTree = "<group>"; };
+		418B5464B16505F0B4FE2F2C7509D0AC /* WPConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPConstants.m; path = WorldpayCSE/WorldpayCSE/WPConstants.m; sourceTree = "<group>"; };
+		424DAEC560A867F0133BCE9ACE93E229 /* OCMArgAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArgAction.m; path = Source/OCMock/OCMArgAction.m; sourceTree = "<group>"; };
+		432838A96A99E03B14E54F43E9AFA90C /* NSString+WP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+WP.m"; sourceTree = "<group>"; };
+		474C551BFDE53BF5E0DF3918AC9EE86E /* WPConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPConstants.h; path = WorldpayCSE/WorldpayCSE/WPConstants.h; sourceTree = "<group>"; };
+		4883188C377C4075E9C7E49EA2AA3BE1 /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Source/OCMock/NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
+		49B651494CBA8D0E348A51ACC5CA9B63 /* WPPrivateKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPPrivateKey.h; sourceTree = "<group>"; };
+		49E764B27B0AC3808EC0316C09B33E08 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		4B8A003E064A332626A2475A5CE9A525 /* OCMNonRetainingObjectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNonRetainingObjectReturnValueProvider.h; path = Source/OCMock/OCMNonRetainingObjectReturnValueProvider.h; sourceTree = "<group>"; };
+		4ED2E41E0C2E05786486761979A3C080 /* WPAESEncrypter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPAESEncrypter.h; sourceTree = "<group>"; };
+		4F9D51135E6C3BFF4EECB6A44A406607 /* Pods-Dummy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dummy-dummy.m"; sourceTree = "<group>"; };
+		5285B62A3BA0D92D9CA8A1B81D195DB5 /* OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-prefix.pch"; sourceTree = "<group>"; };
+		56AA973C331151BA438FEB4B3FA05CD7 /* OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArg.m; path = Source/OCMock/OCMArg.m; sourceTree = "<group>"; };
+		56CED7FFE37120402665A8ADBA40B3B4 /* WPJWEObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPJWEObject.m; sourceTree = "<group>"; };
+		58691C240B8002AB818F47582C690D9B /* OCMVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMVerifier.h; path = Source/OCMock/OCMVerifier.h; sourceTree = "<group>"; };
+		58A4713DB022D966D6846CA3835451A8 /* NSError+WP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+WP.h"; sourceTree = "<group>"; };
+		5D186C4DC44B3260945FCE2A7B7F5BF1 /* OCMMacroState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMMacroState.m; path = Source/OCMock/OCMMacroState.m; sourceTree = "<group>"; };
+		5E006DD4B821AB24C36C3697F2DB51C4 /* AESGSMTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AESGSMTests.m; sourceTree = "<group>"; };
+		623A9985B2819307E102531E3451FA55 /* WPKeyGen.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPKeyGen.m; sourceTree = "<group>"; };
+		62DB30CA457248765E4733B05E5D8F3D /* NSData+Base64URL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64URL.m"; sourceTree = "<group>"; };
+		635AF8ACB4B383601600E40D55CD1419 /* OCMArgAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArgAction.h; path = Source/OCMock/OCMArgAction.h; sourceTree = "<group>"; };
+		63A1BC892EEA213728162E5682FFAE9A /* OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMIndirectReturnValueProvider.h; path = Source/OCMock/OCMIndirectReturnValueProvider.h; sourceTree = "<group>"; };
+		64CCFAE0FE69C251338AD2297334214C /* RSA1_5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSA1_5.m; sourceTree = "<group>"; };
+		6617BECB4DAFB05B1A99AEBEE66B8BCD /* Pods-Dummy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dummy-Info.plist"; sourceTree = "<group>"; };
+		6890940C845FF3E0AEC2B29B4077A6FD /* OCMLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMLocation.m; path = Source/OCMock/OCMLocation.m; sourceTree = "<group>"; };
+		68A69A0C32A1D0FC6298E6DB36395091 /* WorldpayCSETests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WorldpayCSETests.m; path = WorldpayCSE/WorldpayCSETests/WorldpayCSETests.m; sourceTree = "<group>"; };
+		699DBC99FB3EE502E566D63B28340057 /* WorldpayCSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorldpayCSE.debug.xcconfig; sourceTree = "<group>"; };
+		69F222FA4E3611F9E9412FAA101677DB /* NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+OCMAdditions.m"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = "<group>"; };
+		6D1CD927598C02D9726D3371F663CD50 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		6DDBEB2A35543F578D00A0F4AB0C5239 /* NSString+WP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WP.h"; sourceTree = "<group>"; };
+		709FAF44BED016701BCF32773AD0B6FD /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRealObjectForwarder.m; path = Source/OCMock/OCMRealObjectForwarder.m; sourceTree = "<group>"; };
+		70B445DBAE34F1BE5CACBE60B1502B22 /* OCMStubRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMStubRecorder.h; path = Source/OCMock/OCMStubRecorder.h; sourceTree = "<group>"; };
+		70D51E52F55A7454313D1DEC913AED05 /* OCMObjectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMObjectReturnValueProvider.m; path = Source/OCMock/OCMObjectReturnValueProvider.m; sourceTree = "<group>"; };
+		733CDF0CB468C57357F60529BC5F0E89 /* WPPublicKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPPublicKey.m; sourceTree = "<group>"; };
+		758BC5A46908BD49A3FB77AEE45807EA /* OCMBlockArgCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBlockArgCaller.m; path = Source/OCMock/OCMBlockArgCaller.m; sourceTree = "<group>"; };
+		75BB18271DEFEFC430D0E5F4E114EB2B /* OCMExpectationRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExpectationRecorder.m; path = Source/OCMock/OCMExpectationRecorder.m; sourceTree = "<group>"; };
+		7636E3DE67CE04A388342D942BD9ADA9 /* OCMFunctionsPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctionsPrivate.h; path = Source/OCMock/OCMFunctionsPrivate.h; sourceTree = "<group>"; };
+		774269D4C930F71DD8DD95CB92814181 /* WPCardDataTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPCardDataTests.m; sourceTree = "<group>"; };
+		7A63A4B49293808F0F335049EBDCF9FF /* WorldpayCSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorldpayCSE.release.xcconfig; sourceTree = "<group>"; };
+		7FC520A2FD8D5AF8DBDDC0AE0DD66C48 /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Source/OCMock/NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
+		81B0B7CD1DD3DEB9F7EA072F92EF44F0 /* OCProtocolMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCProtocolMockObject.h; path = Source/OCMock/OCProtocolMockObject.h; sourceTree = "<group>"; };
+		84F55C51A2B8D11AA6C6D4241CB159CA /* OCMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = Source/OCMock/OCMockObject.h; sourceTree = "<group>"; };
+		85061A5ED6CB9AA54B3E0495BD193049 /* OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExceptionReturnValueProvider.m; path = Source/OCMock/OCMExceptionReturnValueProvider.m; sourceTree = "<group>"; };
+		851B69EA5FC2448DC12F94EC265A121E /* OpenSSL-Universal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "OpenSSL-Universal.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85A68FC6C733FA0F9A22787820898C4D /* WPJWEObjectTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPJWEObjectTests.m; sourceTree = "<group>"; };
+		87A866F9FA906B195847381BCBB18DFD /* OCMFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMFunctions.m; path = Source/OCMock/OCMFunctions.m; sourceTree = "<group>"; };
+		87EE5ABC426693C773F00EF1B4CBF964 /* NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+OCMAdditions.m"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.m"; sourceTree = "<group>"; };
+		896B4D6C5B56031C02009EC1AB799268 /* OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNotificationPoster.h; path = Source/OCMock/OCMNotificationPoster.h; sourceTree = "<group>"; };
+		8BA48E36EEB17739E4E71AA8C60DB29B /* WPCardData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPCardData.h; sourceTree = "<group>"; };
+		8D24EDB08C9D412D5452F81036EC9897 /* OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMObserverRecorder.m; path = Source/OCMock/OCMObserverRecorder.m; sourceTree = "<group>"; };
+		9048396348D4DCEF7D63E2910F9CEC3F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		904D16F397C0A04003691B2406B3FEC0 /* OCMObjectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMObjectReturnValueProvider.h; path = Source/OCMock/OCMObjectReturnValueProvider.h; sourceTree = "<group>"; };
+		90556B093F0BBBEF2487B7D6774188D4 /* OCObserverMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCObserverMockObject.h; path = Source/OCMock/OCObserverMockObject.h; sourceTree = "<group>"; };
+		92029F31660A2906AC6D08685ADD2FAA /* WorldpayCSE-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorldpayCSE-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
+		924E445854A0A6C535384B8216929005 /* WorldpayCSE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WorldpayCSE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93285C09955C122F44B2D9F06F8DD1B2 /* Pods-Dummy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dummy-umbrella.h"; sourceTree = "<group>"; };
+		94120B7D3B6C67A9EDF2822ADF2C9091 /* WPCardValidatorTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPCardValidatorTests.m; path = WorldpayCSE/WorldpayCSETests/WPCardValidatorTests.m; sourceTree = "<group>"; };
+		9634449C7779031E7252186568467F75 /* OCMRealObjectForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRealObjectForwarder.h; path = Source/OCMock/OCMRealObjectForwarder.h; sourceTree = "<group>"; };
+		971601A5D588C5D750206664BCB42DFB /* WorldpayCSE-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "WorldpayCSE-Unit-Tests"; path = "WorldpayCSE-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAE72F6C267948463C6103E3A4B377C /* OCMVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMVerifier.m; path = Source/OCMock/OCMVerifier.m; sourceTree = "<group>"; };
+		9BADCB2A09CF5B372434EA50E9C7320A /* RSA1_5Tests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSA1_5Tests.m; sourceTree = "<group>"; };
+		9C6E301BEA49755780879DB447116C63 /* OCPartialMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCPartialMockObject.h; path = Source/OCMock/OCPartialMockObject.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F95DEA527329B2E9170D4E9B1CF8CB7 /* NSObject+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+OCMAdditions.h"; path = "Source/OCMock/NSObject+OCMAdditions.h"; sourceTree = "<group>"; };
+		9FA7CDA7CC12FE7BF570611424730374 /* OCMObserverRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMObserverRecorder.h; path = Source/OCMock/OCMObserverRecorder.h; sourceTree = "<group>"; };
+		A093C3617C94CE20FDF94AA9BC2C9113 /* WPCryptoUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPCryptoUtils.m; sourceTree = "<group>"; };
+		A1938F5EE585F54725C316D2E21DA82F /* OCMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMock.release.xcconfig; sourceTree = "<group>"; };
+		A215550301D128F447EED34CDB900F8B /* WPCryptoUtilsTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPCryptoUtilsTests.m; sourceTree = "<group>"; };
+		A42E9FEF755351532E31359AAFE0AC96 /* OCMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock-dummy.m"; sourceTree = "<group>"; };
+		A46CFDB0719FBF232D921781C9615D12 /* NSStringWP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSStringWP.m; sourceTree = "<group>"; };
+		A4D0A7C5249CAE082D21E09CFC37CFAA /* WPCardValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WPCardValidator.m; path = WorldpayCSE/WorldpayCSE/WPCardValidator.m; sourceTree = "<group>"; };
+		A5819A6DC5828F6EFFA28AC49EC561B3 /* Pods-Dummy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dummy-acknowledgements.plist"; sourceTree = "<group>"; };
+		A71A7817AAABC5B92F17514765F770DE /* OCMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-umbrella.h"; sourceTree = "<group>"; };
+		AC56156D5DC3EB106034C2AC7364B2CB /* WPJWEHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPJWEHeader.m; sourceTree = "<group>"; };
+		ADC4E5E2A251ED4871310A41EBE571DB /* OCMLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMLocation.h; path = Source/OCMock/OCMLocation.h; sourceTree = "<group>"; };
+		B0509F3D0E448554F0BCFE898F2C9F2B /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		B326FC4EB86CD467B6486C429BE4FD4A /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
+		B3E2469A3075A898E8D9EFBE5DE8C5E1 /* OCMInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationMatcher.m; path = Source/OCMock/OCMInvocationMatcher.m; sourceTree = "<group>"; };
+		B474AEEAB0EB38823C5A58F6A18506FE /* Pods_Dummy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Dummy.framework; path = "Pods-Dummy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B704DA543FA09C2645233CD297FD97D0 /* OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBoxedReturnValueProvider.h; path = Source/OCMock/OCMBoxedReturnValueProvider.h; sourceTree = "<group>"; };
+		BA0663B535FF2230121BE5D848A5F811 /* NSObject+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+OCMAdditions.m"; path = "Source/OCMock/NSObject+OCMAdditions.m"; sourceTree = "<group>"; };
+		C2AA43A1ACF0FDA4C2B6869CD56F0AB3 /* OCMInvocationStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationStub.h; path = Source/OCMock/OCMInvocationStub.h; sourceTree = "<group>"; };
+		C32C418752C7AAE5614B09CD213C3C79 /* OCMPassByRefSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMPassByRefSetter.h; path = Source/OCMock/OCMPassByRefSetter.h; sourceTree = "<group>"; };
+		C3F6060F98B9643363A599E0C8E4AA4D /* WPAESEncrypter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPAESEncrypter.m; sourceTree = "<group>"; };
+		C603D780290A8A9C2B2F2FAC2D34181A /* OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCObserverMockObject.m; path = Source/OCMock/OCObserverMockObject.m; sourceTree = "<group>"; };
+		C627BC4728D494D0B8ABF2CC6F8F4052 /* NSData+Base64URL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64URL.h"; sourceTree = "<group>"; };
+		C6E4319A2535DEBE171117A97A994396 /* OCMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockObject.m; path = Source/OCMock/OCMockObject.m; sourceTree = "<group>"; };
+		C6EB74BD90F6CFCE4BE7C1CD5B8E9BFC /* WorldpayCSE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WorldpayCSE.h; path = WorldpayCSE/WorldpayCSE/WorldpayCSE.h; sourceTree = "<group>"; };
+		C80986C9001539666F78BF3EECAC68D4 /* Pods-Dummy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dummy.debug.xcconfig"; sourceTree = "<group>"; };
+		C815B67710D8E152A643004461B7DB19 /* OCMock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OCMock.modulemap; sourceTree = "<group>"; };
+		C8DC5A4E033820D82B478E550CAD4A2D /* OCMInvocationStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationStub.m; path = Source/OCMock/OCMInvocationStub.m; sourceTree = "<group>"; };
+		C9487BF35BA5A893694CDB975BF72D5C /* OCPartialMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCPartialMockObject.m; path = Source/OCMock/OCPartialMockObject.m; sourceTree = "<group>"; };
+		CA6D0A549AE0268565E25A08000E949B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CAF99A5BDDD500287211736109AE907C /* WPRSAEncrypter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPRSAEncrypter.m; sourceTree = "<group>"; };
+		CC90B98DB1DA489AB4F5BF479CF0A3E8 /* Pods-Dummy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dummy.release.xcconfig"; sourceTree = "<group>"; };
+		CCB6470F42861F20E5B092E02E697C27 /* NSStringBase64URLTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NSStringBase64URLTests.m; sourceTree = "<group>"; };
+		CD1093EB448448B412F784D8845C7026 /* OCMBlockCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBlockCaller.m; path = Source/OCMock/OCMBlockCaller.m; sourceTree = "<group>"; };
+		CEAA0BDD9E0010CA7E55ADA33F859945 /* WPErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WPErrorCodes.h; path = WorldpayCSE/WorldpayCSE/WPErrorCodes.h; sourceTree = "<group>"; };
+		CEDD92A2FE6EC489BFB4401E868D07A7 /* OCMStubRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMStubRecorder.m; path = Source/OCMock/OCMStubRecorder.m; sourceTree = "<group>"; };
+		CF310EBB386B7BEC6B9BB57FED45C28B /* WorldpayCSE-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WorldpayCSE-Info.plist"; sourceTree = "<group>"; };
+		D0396823E37C87240E171F6DCF1EE5E6 /* OCMQuantifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMQuantifier.h; path = Source/OCMock/OCMQuantifier.h; sourceTree = "<group>"; };
+		D37CDD79C1413BF93ABD3EA557EFC91E /* OCMFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctions.h; path = Source/OCMock/OCMFunctions.h; sourceTree = "<group>"; };
+		D6F5E8D443A00959AC013685E32F3F25 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		D7272675A279F446D3CDA6B380023695 /* OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExceptionReturnValueProvider.h; path = Source/OCMock/OCMExceptionReturnValueProvider.h; sourceTree = "<group>"; };
+		DA6BCF93E24723C1DB9DAFED7012B00F /* WPRSAEncrypter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPRSAEncrypter.h; sourceTree = "<group>"; };
+		E1741805913FE3D0BA9F8F50544A18CB /* WorldpayCSE-Unit-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "WorldpayCSE-Unit-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E2BCC6EE464DCD80E472D8821B068212 /* NSError+WP.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+WP.m"; sourceTree = "<group>"; };
+		E483EE40BC28730733C8FBBB387DA2A9 /* WPRSAEncrypterTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPRSAEncrypterTests.m; sourceTree = "<group>"; };
+		E4D8DD73240CC8CCD2264DF2E64A53C3 /* OCMRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRecorder.m; path = Source/OCMock/OCMRecorder.m; sourceTree = "<group>"; };
+		E7136FC8B2D0C4798367CDBC5624F646 /* WorldpayCSE-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorldpayCSE-umbrella.h"; sourceTree = "<group>"; };
+		E7809406350EF97A1929A47F5B67B194 /* OCMBlockArgCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockArgCaller.h; path = Source/OCMock/OCMBlockArgCaller.h; sourceTree = "<group>"; };
+		E949348E1155A17E18AD7BF5F27ABB1F /* OCMPassByRefSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMPassByRefSetter.m; path = Source/OCMock/OCMPassByRefSetter.m; sourceTree = "<group>"; };
+		EB8D095B321803C64A86EC83B70BDB70 /* NSString+Base64URL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64URL.h"; sourceTree = "<group>"; };
+		ED7079BB26AA802B5CAF65E7F42DE81C /* WPJWEObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPJWEObject.h; sourceTree = "<group>"; };
+		EE4E5A09D5EE6BA218CB1C9AE6F1A4BC /* Pods-Dummy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dummy.modulemap"; sourceTree = "<group>"; };
+		F101DB687ECBB6025D8AFFE8AAB615F6 /* RSA1_5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSA1_5.h; sourceTree = "<group>"; };
+		F12D9ACDEA675FB052305F15C236CAE2 /* WPCryptoUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WPCryptoUtils.h; sourceTree = "<group>"; };
+		F30C125DB91902F63DC73AEF0B0E6111 /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCMock.framework; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F401FC6D93E70FB1DDAFDD580846ADA9 /* OCMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = Source/OCMock/OCMock.h; sourceTree = "<group>"; };
+		F4DA2A65EA3520B4E4846A199CD5B965 /* WPKeyGenTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WPKeyGenTests.m; sourceTree = "<group>"; };
+		F76B4B277F9D69EBAE30BF411FD206AD /* NSValue+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+OCMAdditions.m"; path = "Source/OCMock/NSValue+OCMAdditions.m"; sourceTree = "<group>"; };
+		F7EBED91DE271D80067631DC5AC623E3 /* OCMBlockCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockCaller.h; path = Source/OCMock/OCMBlockCaller.h; sourceTree = "<group>"; };
+		F80CE4E2A5D4FCAE3818DEA62B83EBDA /* OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = Source/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
+		FBC33478DF27DA20DAC3825D42D3BF62 /* NSMethodSignature+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+OCMAdditions.h"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.h"; sourceTree = "<group>"; };
+		FBFD767B9988219414897DE5E6A8FFB6 /* OCMInvocationExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationExpectation.h; path = Source/OCMock/OCMInvocationExpectation.h; sourceTree = "<group>"; };
+		FFAB0D8DA6EBB1DD08F02638656238ED /* OCMNonRetainingObjectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMNonRetainingObjectReturnValueProvider.m; path = Source/OCMock/OCMNonRetainingObjectReturnValueProvider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BC2F176F0D4DF7E99B547FC3A787A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E9FF877B21F8FD9D55E9D3FBA8DFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DF1BC8BC699081E179011066C0165E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69A2358BA6A370B5EB357CCD0EFA634 /* Foundation.framework in Frameworks */,
+				13BCC6A6BC84E59D637A18DD5BAE79BA /* OCMock.framework in Frameworks */,
+				B607C1062F7E551F12A3B21E5C7B0E42 /* WorldpayCSE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7620D828AA583D68D119C6C2FC4E3F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77141C8E520F6A190CE524533F686E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE90C840A3DBEADB6520AF55CD557FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39FC4AE1FEFDD8F90F3B8D024B2270F /* Foundation.framework in Frameworks */,
+				9B562CDF1CACF7FD8E238D1554B2D204 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B5E682918D77B74C3F7C485CB5CA238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30C125DB91902F63DC73AEF0B0E6111 /* OCMock.framework */,
+				B474AEEAB0EB38823C5A58F6A18506FE /* Pods_Dummy.framework */,
+				10E3CEF1D13E2244A3E608429F210D10 /* WorldpayCSE.framework */,
+				971601A5D588C5D750206664BCB42DFB /* WorldpayCSE-Unit-Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2933B1A1D12BD3023E7984F6AB0AB421 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9048396348D4DCEF7D63E2910F9CEC3F /* LICENSE */,
+				10EC30CE3F94138DB1D94B9F108160E1 /* WorldpayCSE.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30300123B8BF96526EEA98BDA96E5437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				153AF101AB66997B12AF1AE25F804C3B /* WorldpayCSE.modulemap */,
+				0DB1E6977D9FB21F3E93625D44F12ED1 /* WorldpayCSE-dummy.m */,
+				CF310EBB386B7BEC6B9BB57FED45C28B /* WorldpayCSE-Info.plist */,
+				2B8D6E36FF57C46CD3BEA514618253C4 /* WorldpayCSE-prefix.pch */,
+				E7136FC8B2D0C4798367CDBC5624F646 /* WorldpayCSE-umbrella.h */,
+				E1741805913FE3D0BA9F8F50544A18CB /* WorldpayCSE-Unit-Tests-frameworks.sh */,
+				240E471DC8A001D16CC599DFAFE3B0E5 /* WorldpayCSE-Unit-Tests-Info.plist */,
+				92029F31660A2906AC6D08685ADD2FAA /* WorldpayCSE-Unit-Tests-prefix.pch */,
+				699DBC99FB3EE502E566D63B28340057 /* WorldpayCSE.debug.xcconfig */,
+				7A63A4B49293808F0F335049EBDCF9FF /* WorldpayCSE.release.xcconfig */,
+				2BDFC187270304D19E1265C5E8197A09 /* WorldpayCSE.unit-tests.debug.xcconfig */,
+				0353836754BF13D132B1103298AD4121 /* WorldpayCSE.unit-tests.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/WorldpayCSE";
+			sourceTree = "<group>";
+		};
+		3CA54F1C8131C82879A68646B0042F26 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				68A69A0C32A1D0FC6298E6DB36395091 /* WorldpayCSETests.m */,
+				94120B7D3B6C67A9EDF2822ADF2C9091 /* WPCardValidatorTests.m */,
+				B42C4F599BCAEC4428DC840EF50EE73E /* categories */,
+				4144106E0DD17D5A48DD784005F78D5B /* crypto */,
+				DD85495B7B49BAA1D8963CD2AAD7BA90 /* jwe */,
+				A97F64CD2D62357F427934EA5C98491B /* model */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		4144106E0DD17D5A48DD784005F78D5B /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				5E006DD4B821AB24C36C3697F2DB51C4 /* AESGSMTests.m */,
+				9BADCB2A09CF5B372434EA50E9C7320A /* RSA1_5Tests.m */,
+				121DD3DBAE7B38EDEF7E912596605507 /* WPAESEncrypterTests.m */,
+				A215550301D128F447EED34CDB900F8B /* WPCryptoUtilsTests.m */,
+				F4DA2A65EA3520B4E4846A199CD5B965 /* WPKeyGenTests.m */,
+				49B651494CBA8D0E348A51ACC5CA9B63 /* WPPrivateKey.h */,
+				00FD4CAF89D5E6B8069B08E51269278A /* WPPrivateKey.m */,
+				E483EE40BC28730733C8FBBB387DA2A9 /* WPRSAEncrypterTests.m */,
+				21B0E15558CD93065DC9DDCBDDCC58CE /* WPRSAPublicKeyTests.m */,
+			);
+			name = crypto;
+			path = WorldpayCSE/WorldpayCSETests/crypto;
+			sourceTree = "<group>";
+		};
+		448D7076DB5B7F70091DC712512C0386 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B326FC4EB86CD467B6486C429BE4FD4A /* OpenSSL-Universal-xcframeworks.sh */,
+				D6F5E8D443A00959AC013685E32F3F25 /* OpenSSL-Universal.debug.xcconfig */,
+				B0509F3D0E448554F0BCFE898F2C9F2B /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		46494ACEEFD560573102E4C0B3EEBA93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				060B70D5093765BC70F274BD337DD27D /* OCMock.framework */,
+				924E445854A0A6C535384B8216929005 /* WorldpayCSE.framework */,
+				5644C88C8D6D8A4231F2BB62F666DC93 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5644C88C8D6D8A4231F2BB62F666DC93 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D0A549AE0268565E25A08000E949B /* Foundation.framework */,
+				0058ADA2C74EE2FA80748A10CB198636 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7031774EDF81832CC77C2CF1E4A1345E /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				C627BC4728D494D0B8ABF2CC6F8F4052 /* NSData+Base64URL.h */,
+				62DB30CA457248765E4733B05E5D8F3D /* NSData+Base64URL.m */,
+				6D1CD927598C02D9726D3371F663CD50 /* NSDictionary+JSON.h */,
+				0CE0DFDF308ED580307C49DB71F668A8 /* NSDictionary+JSON.m */,
+				58A4713DB022D966D6846CA3835451A8 /* NSError+WP.h */,
+				E2BCC6EE464DCD80E472D8821B068212 /* NSError+WP.m */,
+				EB8D095B321803C64A86EC83B70BDB70 /* NSString+Base64URL.h */,
+				0DA01416058833FBB845619EFD9FE1AE /* NSString+Base64URL.m */,
+				6DDBEB2A35543F578D00A0F4AB0C5239 /* NSString+WP.h */,
+				432838A96A99E03B14E54F43E9AFA90C /* NSString+WP.m */,
+			);
+			name = categories;
+			path = WorldpayCSE/WorldpayCSE/categories;
+			sourceTree = "<group>";
+		};
+		715B51E8AF0CE6E9DA0E4057E3B55A99 /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				764131B3830A4D80ADF0470D43D5102F /* Frameworks */,
+				ABB36A0B97594F616D9EB55E8EEAEF72 /* Pod */,
+				448D7076DB5B7F70091DC712512C0386 /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		764131B3830A4D80ADF0470D43D5102F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B85AC1C75FDA2B399523F1855410B9D /* OpenSSL.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77261483CD1AAB9D8DF0ED5D5B0D08CE /* jwe */ = {
+			isa = PBXGroup;
+			children = (
+				ED7079BB26AA802B5CAF65E7F42DE81C /* WPJWEObject.h */,
+				56CED7FFE37120402665A8ADBA40B3B4 /* WPJWEObject.m */,
+			);
+			name = jwe;
+			path = WorldpayCSE/WorldpayCSE/jwe;
+			sourceTree = "<group>";
+		};
+		8F463FB5A1DE6BE82A870BCBEED3A722 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8BA48E36EEB17739E4E71AA8C60DB29B /* WPCardData.h */,
+				28C86C71C98A70417A3C9FDF84BE18B0 /* WPCardData.m */,
+				26D33DCC9B2E57A3E989959A23E426CB /* WPJWEHeader.h */,
+				AC56156D5DC3EB106034C2AC7364B2CB /* WPJWEHeader.m */,
+			);
+			name = model;
+			path = WorldpayCSE/WorldpayCSE/model;
+			sourceTree = "<group>";
+		};
+		9340C03E46ED58878333BA7CB59E9908 /* WorldpayCSE */ = {
+			isa = PBXGroup;
+			children = (
+				C6EB74BD90F6CFCE4BE7C1CD5B8E9BFC /* WorldpayCSE.h */,
+				33E4B153BF5D714FA1CAE9F0EF1BBCCD /* WorldpayCSE.m */,
+				0FA8E662A7C3E535C242A3400C90F829 /* WPCardValidator.h */,
+				A4D0A7C5249CAE082D21E09CFC37CFAA /* WPCardValidator.m */,
+				474C551BFDE53BF5E0DF3918AC9EE86E /* WPConstants.h */,
+				418B5464B16505F0B4FE2F2C7509D0AC /* WPConstants.m */,
+				CEAA0BDD9E0010CA7E55ADA33F859945 /* WPErrorCodes.h */,
+				7031774EDF81832CC77C2CF1E4A1345E /* categories */,
+				B0892588EDEBE8735E8F24358A867C68 /* crypto */,
+				77261483CD1AAB9D8DF0ED5D5B0D08CE /* jwe */,
+				8F463FB5A1DE6BE82A870BCBEED3A722 /* model */,
+				2933B1A1D12BD3023E7984F6AB0AB421 /* Pod */,
+				30300123B8BF96526EEA98BDA96E5437 /* Support Files */,
+				3CA54F1C8131C82879A68646B0042F26 /* Tests */,
+			);
+			name = WorldpayCSE;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		934BC2F3E42B60ECB8B4E2025B21AD46 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFAD0841E344E8BF7AB75D5E768F5FDA /* Pods-Dummy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A97F64CD2D62357F427934EA5C98491B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				774269D4C930F71DD8DD95CB92814181 /* WPCardDataTests.m */,
+				37029A11C652AAD60ADA14861F5DAA5A /* WPJWEHeaderTests.m */,
+			);
+			name = model;
+			path = WorldpayCSE/WorldpayCSETests/model;
+			sourceTree = "<group>";
+		};
+		ABB36A0B97594F616D9EB55E8EEAEF72 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				851B69EA5FC2448DC12F94EC265A121E /* OpenSSL-Universal.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B0892588EDEBE8735E8F24358A867C68 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				0CDDD746747AB1D6457E6D809B0D1B40 /* AESGCM.h */,
+				24C93EB73B25820BCA0D4117AFDA281E /* AESGCM.m */,
+				F101DB687ECBB6025D8AFFE8AAB615F6 /* RSA1_5.h */,
+				64CCFAE0FE69C251338AD2297334214C /* RSA1_5.m */,
+				4ED2E41E0C2E05786486761979A3C080 /* WPAESEncrypter.h */,
+				C3F6060F98B9643363A599E0C8E4AA4D /* WPAESEncrypter.m */,
+				F12D9ACDEA675FB052305F15C236CAE2 /* WPCryptoUtils.h */,
+				A093C3617C94CE20FDF94AA9BC2C9113 /* WPCryptoUtils.m */,
+				3FADEA58C43652F4FABB9154AFBD79A5 /* WPKeyGen.h */,
+				623A9985B2819307E102531E3451FA55 /* WPKeyGen.m */,
+				365862A43FDD480B5A1CF4B1927F688B /* WPPublicKey.h */,
+				733CDF0CB468C57357F60529BC5F0E89 /* WPPublicKey.m */,
+				DA6BCF93E24723C1DB9DAFED7012B00F /* WPRSAEncrypter.h */,
+				CAF99A5BDDD500287211736109AE907C /* WPRSAEncrypter.m */,
+			);
+			name = crypto;
+			path = WorldpayCSE/WorldpayCSE/crypto;
+			sourceTree = "<group>";
+		};
+		B42C4F599BCAEC4428DC840EF50EE73E /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				070DE7712594E0512C7E317F902E7AF1 /* NSDataBase64URLTests.m */,
+				0533FA6F5E6B9840EB161D6E2AEA2117 /* NSDictionaryJSONTests.m */,
+				242699CFFFC0B1AF7FBB17DF9C62D216 /* NSErrorWPTests.m */,
+				CCB6470F42861F20E5B092E02E697C27 /* NSStringBase64URLTests.m */,
+				A46CFDB0719FBF232D921781C9615D12 /* NSStringWP.m */,
+			);
+			name = categories;
+			path = WorldpayCSE/WorldpayCSETests/categories;
+			sourceTree = "<group>";
+		};
+		BEACE0FE9B84F2211CE92E6F859CB20B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E6278FF7FDD0E59136FAD22362DA3 /* OCMock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D8ABECA84248B7B5C7FD0E4C0BBC163D /* Development Pods */,
+				46494ACEEFD560573102E4C0B3EEBA93 /* Frameworks */,
+				BEACE0FE9B84F2211CE92E6F859CB20B /* Pods */,
+				0B5E682918D77B74C3F7C485CB5CA238 /* Products */,
+				934BC2F3E42B60ECB8B4E2025B21AD46 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8ABECA84248B7B5C7FD0E4C0BBC163D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				715B51E8AF0CE6E9DA0E4057E3B55A99 /* OpenSSL-Universal */,
+				9340C03E46ED58878333BA7CB59E9908 /* WorldpayCSE */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DD85495B7B49BAA1D8963CD2AAD7BA90 /* jwe */ = {
+			isa = PBXGroup;
+			children = (
+				85A68FC6C733FA0F9A22787820898C4D /* WPJWEObjectTests.m */,
+			);
+			name = jwe;
+			path = WorldpayCSE/WorldpayCSETests/jwe;
+			sourceTree = "<group>";
+		};
+		FA4E6278FF7FDD0E59136FAD22362DA3 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				4883188C377C4075E9C7E49EA2AA3BE1 /* NSInvocation+OCMAdditions.h */,
+				7FC520A2FD8D5AF8DBDDC0AE0DD66C48 /* NSInvocation+OCMAdditions.m */,
+				FBC33478DF27DA20DAC3825D42D3BF62 /* NSMethodSignature+OCMAdditions.h */,
+				87EE5ABC426693C773F00EF1B4CBF964 /* NSMethodSignature+OCMAdditions.m */,
+				49E764B27B0AC3808EC0316C09B33E08 /* NSNotificationCenter+OCMAdditions.h */,
+				69F222FA4E3611F9E9412FAA101677DB /* NSNotificationCenter+OCMAdditions.m */,
+				9F95DEA527329B2E9170D4E9B1CF8CB7 /* NSObject+OCMAdditions.h */,
+				BA0663B535FF2230121BE5D848A5F811 /* NSObject+OCMAdditions.m */,
+				2F75AB8370816959B78AD243E2906873 /* NSValue+OCMAdditions.h */,
+				F76B4B277F9D69EBAE30BF411FD206AD /* NSValue+OCMAdditions.m */,
+				2AA696E43DFFE5A54FEA33E230D8EB19 /* OCClassMockObject.h */,
+				1C82923882E4DA1318910C94BD23601A /* OCClassMockObject.m */,
+				40DD160B4E7B35D7264DE837235E7A7C /* OCMArg.h */,
+				56AA973C331151BA438FEB4B3FA05CD7 /* OCMArg.m */,
+				635AF8ACB4B383601600E40D55CD1419 /* OCMArgAction.h */,
+				424DAEC560A867F0133BCE9ACE93E229 /* OCMArgAction.m */,
+				E7809406350EF97A1929A47F5B67B194 /* OCMBlockArgCaller.h */,
+				758BC5A46908BD49A3FB77AEE45807EA /* OCMBlockArgCaller.m */,
+				F7EBED91DE271D80067631DC5AC623E3 /* OCMBlockCaller.h */,
+				CD1093EB448448B412F784D8845C7026 /* OCMBlockCaller.m */,
+				B704DA543FA09C2645233CD297FD97D0 /* OCMBoxedReturnValueProvider.h */,
+				2EC5AEF5202426B168B7CF1A7C464CDA /* OCMBoxedReturnValueProvider.m */,
+				F80CE4E2A5D4FCAE3818DEA62B83EBDA /* OCMConstraint.h */,
+				25385C62FAF4EAE0650F7BC3E02F1560 /* OCMConstraint.m */,
+				D7272675A279F446D3CDA6B380023695 /* OCMExceptionReturnValueProvider.h */,
+				85061A5ED6CB9AA54B3E0495BD193049 /* OCMExceptionReturnValueProvider.m */,
+				3AD303B041C47E03336BD76E5FDA9B3C /* OCMExpectationRecorder.h */,
+				75BB18271DEFEFC430D0E5F4E114EB2B /* OCMExpectationRecorder.m */,
+				D37CDD79C1413BF93ABD3EA557EFC91E /* OCMFunctions.h */,
+				87A866F9FA906B195847381BCBB18DFD /* OCMFunctions.m */,
+				7636E3DE67CE04A388342D942BD9ADA9 /* OCMFunctionsPrivate.h */,
+				63A1BC892EEA213728162E5682FFAE9A /* OCMIndirectReturnValueProvider.h */,
+				0F775F8C1231874F09BF65D51F2ADE92 /* OCMIndirectReturnValueProvider.m */,
+				FBFD767B9988219414897DE5E6A8FFB6 /* OCMInvocationExpectation.h */,
+				1383EB7F005A1B516024099136944002 /* OCMInvocationExpectation.m */,
+				16A9BE68120D0B1FB40A2F83921CD23E /* OCMInvocationMatcher.h */,
+				B3E2469A3075A898E8D9EFBE5DE8C5E1 /* OCMInvocationMatcher.m */,
+				C2AA43A1ACF0FDA4C2B6869CD56F0AB3 /* OCMInvocationStub.h */,
+				C8DC5A4E033820D82B478E550CAD4A2D /* OCMInvocationStub.m */,
+				ADC4E5E2A251ED4871310A41EBE571DB /* OCMLocation.h */,
+				6890940C845FF3E0AEC2B29B4077A6FD /* OCMLocation.m */,
+				41490FEDD5258204A7A908C23DF28C53 /* OCMMacroState.h */,
+				5D186C4DC44B3260945FCE2A7B7F5BF1 /* OCMMacroState.m */,
+				4B8A003E064A332626A2475A5CE9A525 /* OCMNonRetainingObjectReturnValueProvider.h */,
+				FFAB0D8DA6EBB1DD08F02638656238ED /* OCMNonRetainingObjectReturnValueProvider.m */,
+				896B4D6C5B56031C02009EC1AB799268 /* OCMNotificationPoster.h */,
+				0A0224ED7936FC48BB48A94A0C6BA2A4 /* OCMNotificationPoster.m */,
+				904D16F397C0A04003691B2406B3FEC0 /* OCMObjectReturnValueProvider.h */,
+				70D51E52F55A7454313D1DEC913AED05 /* OCMObjectReturnValueProvider.m */,
+				9FA7CDA7CC12FE7BF570611424730374 /* OCMObserverRecorder.h */,
+				8D24EDB08C9D412D5452F81036EC9897 /* OCMObserverRecorder.m */,
+				F401FC6D93E70FB1DDAFDD580846ADA9 /* OCMock.h */,
+				107090F3D131350B6A8233E6F63ED9B6 /* OCMockMacros.h */,
+				84F55C51A2B8D11AA6C6D4241CB159CA /* OCMockObject.h */,
+				C6E4319A2535DEBE171117A97A994396 /* OCMockObject.m */,
+				C32C418752C7AAE5614B09CD213C3C79 /* OCMPassByRefSetter.h */,
+				E949348E1155A17E18AD7BF5F27ABB1F /* OCMPassByRefSetter.m */,
+				D0396823E37C87240E171F6DCF1EE5E6 /* OCMQuantifier.h */,
+				1F7B5BB2EE8F4B570B9A1F83FED348AE /* OCMQuantifier.m */,
+				9634449C7779031E7252186568467F75 /* OCMRealObjectForwarder.h */,
+				709FAF44BED016701BCF32773AD0B6FD /* OCMRealObjectForwarder.m */,
+				2937CAD0C907E7341AE9D229C2535BE9 /* OCMRecorder.h */,
+				E4D8DD73240CC8CCD2264DF2E64A53C3 /* OCMRecorder.m */,
+				70B445DBAE34F1BE5CACBE60B1502B22 /* OCMStubRecorder.h */,
+				CEDD92A2FE6EC489BFB4401E868D07A7 /* OCMStubRecorder.m */,
+				58691C240B8002AB818F47582C690D9B /* OCMVerifier.h */,
+				9AAE72F6C267948463C6103E3A4B377C /* OCMVerifier.m */,
+				90556B093F0BBBEF2487B7D6774188D4 /* OCObserverMockObject.h */,
+				C603D780290A8A9C2B2F2FAC2D34181A /* OCObserverMockObject.m */,
+				9C6E301BEA49755780879DB447116C63 /* OCPartialMockObject.h */,
+				C9487BF35BA5A893694CDB975BF72D5C /* OCPartialMockObject.m */,
+				81B0B7CD1DD3DEB9F7EA072F92EF44F0 /* OCProtocolMockObject.h */,
+				07A6E6326DD14A4FE3A05BE60C9DB936 /* OCProtocolMockObject.m */,
+				FA772095C8D25BBA6B16D0F8874F2D78 /* Support Files */,
+			);
+			name = OCMock;
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		FA772095C8D25BBA6B16D0F8874F2D78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C815B67710D8E152A643004461B7DB19 /* OCMock.modulemap */,
+				A42E9FEF755351532E31359AAFE0AC96 /* OCMock-dummy.m */,
+				2C87F96351AB91B34C3AF1B2B6950763 /* OCMock-Info.plist */,
+				5285B62A3BA0D92D9CA8A1B81D195DB5 /* OCMock-prefix.pch */,
+				A71A7817AAABC5B92F17514765F770DE /* OCMock-umbrella.h */,
+				1DFF3995008EABA611EAAE74A17A777F /* OCMock.debug.xcconfig */,
+				A1938F5EE585F54725C316D2E21DA82F /* OCMock.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OCMock";
+			sourceTree = "<group>";
+		};
+		FFAD0841E344E8BF7AB75D5E768F5FDA /* Pods-Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				EE4E5A09D5EE6BA218CB1C9AE6F1A4BC /* Pods-Dummy.modulemap */,
+				2CB8AA3B86280ADF4E9CE7563AE27B03 /* Pods-Dummy-acknowledgements.markdown */,
+				A5819A6DC5828F6EFFA28AC49EC561B3 /* Pods-Dummy-acknowledgements.plist */,
+				4F9D51135E6C3BFF4EECB6A44A406607 /* Pods-Dummy-dummy.m */,
+				6617BECB4DAFB05B1A99AEBEE66B8BCD /* Pods-Dummy-Info.plist */,
+				93285C09955C122F44B2D9F06F8DD1B2 /* Pods-Dummy-umbrella.h */,
+				C80986C9001539666F78BF3EECAC68D4 /* Pods-Dummy.debug.xcconfig */,
+				CC90B98DB1DA489AB4F5BF479CF0A3E8 /* Pods-Dummy.release.xcconfig */,
+			);
+			name = "Pods-Dummy";
+			path = "Target Support Files/Pods-Dummy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C9883C22C23529B0973A79B052D0ADE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EB5D0B159DAE8682A2540F09244B15 /* AESGCM.h in Headers */,
+				95AF9CF3D43DDDCF16313BDF5D189A7B /* NSData+Base64URL.h in Headers */,
+				BBFD996A6D0C203DB44E6726F303CC8B /* NSDictionary+JSON.h in Headers */,
+				C5C45A5C41FB79C8C089327FBF21D53D /* NSError+WP.h in Headers */,
+				4051EA46A6B53556AA6C58AB9B78F911 /* NSString+Base64URL.h in Headers */,
+				7B62652358190F23037D1ABE316090D7 /* NSString+WP.h in Headers */,
+				D6E19627816A75243CB74B2557429484 /* RSA1_5.h in Headers */,
+				6D71353CE017FB40945DDDB9526B14EF /* WorldpayCSE-umbrella.h in Headers */,
+				2030B75B0568119D6BF9C2BDF0305CE3 /* WorldpayCSE.h in Headers */,
+				B0AA7CF733C751B9E666779876383C49 /* WPAESEncrypter.h in Headers */,
+				165A852B544CF29828C4CC5767607CC9 /* WPCardData.h in Headers */,
+				4FADFD2663AFAAC8AC255E142840D98D /* WPCardValidator.h in Headers */,
+				9E060F5A5FA5812617943034D9058406 /* WPConstants.h in Headers */,
+				B3EBC4589675F6CCAD27F10FA9701D09 /* WPCryptoUtils.h in Headers */,
+				6421D5409CA22B1E2A3D65B57741F8FB /* WPErrorCodes.h in Headers */,
+				441830178ED895131858812EA1F473F3 /* WPJWEHeader.h in Headers */,
+				5E17D1AF087FE454DEB37816DE4CDB51 /* WPJWEObject.h in Headers */,
+				D6C497AFC0CBF00937CE0038B40F62B5 /* WPKeyGen.h in Headers */,
+				DE8574341AABD9D671509F5047000FA2 /* WPPublicKey.h in Headers */,
+				2BD0474F0B1B68E07813E58B9897AADA /* WPRSAEncrypter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724FE778C6D1C04F36417EEFCD24D863 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243F49E07A5BEB1C85492B427DB697BF /* NSInvocation+OCMAdditions.h in Headers */,
+				D16187BE24578CA9BEED15CA8B177FAC /* NSMethodSignature+OCMAdditions.h in Headers */,
+				8F07CB758CC6462C6BE52C976A5AB66A /* NSNotificationCenter+OCMAdditions.h in Headers */,
+				0E3277669888BAD63A9E42613B79F892 /* NSObject+OCMAdditions.h in Headers */,
+				26350F4277A2F1D51391DC9DCFA6CD00 /* NSValue+OCMAdditions.h in Headers */,
+				9658794471D5D61D47A1A9BFFD5ACA0D /* OCClassMockObject.h in Headers */,
+				2F2FC18BD00C4B387CB416B09406205C /* OCMArg.h in Headers */,
+				9AD04939B677C24E5A5954DC18B289EA /* OCMArgAction.h in Headers */,
+				7BBAB073705FA31AD1715F87957FA633 /* OCMBlockArgCaller.h in Headers */,
+				9E9DD04A8844133DC24A79D759612AF4 /* OCMBlockCaller.h in Headers */,
+				D5CABCE8F84338F0BBCA1076C90EC1C3 /* OCMBoxedReturnValueProvider.h in Headers */,
+				3BAA5134145F5D79830FCC50ED8E09D4 /* OCMConstraint.h in Headers */,
+				26C8186094557492C8CD935F8D3A2FF4 /* OCMExceptionReturnValueProvider.h in Headers */,
+				CA2E38521ECD86FD2ED363919E8D58B1 /* OCMExpectationRecorder.h in Headers */,
+				3EE812FB8D62EBCEE6FA998BB8336F0F /* OCMFunctions.h in Headers */,
+				2FEA3B51D5C8897F7B40B28961C662F3 /* OCMFunctionsPrivate.h in Headers */,
+				5C42D86C5393A0460BE6CE9EC00974DD /* OCMIndirectReturnValueProvider.h in Headers */,
+				2094476AE639808DD909FC000A008FBA /* OCMInvocationExpectation.h in Headers */,
+				78F6C1EBBBACAE6890BEE2A0761AD2B4 /* OCMInvocationMatcher.h in Headers */,
+				3BBC1100A1245BD91B7EB72350CE2D1C /* OCMInvocationStub.h in Headers */,
+				A18FF1ACFFE2801026F61C0705A33C88 /* OCMLocation.h in Headers */,
+				6FCD67412CDCA4B5AC17784D16470855 /* OCMMacroState.h in Headers */,
+				C4DDE5E614A7B5C6BD06B96F5A9734D6 /* OCMNonRetainingObjectReturnValueProvider.h in Headers */,
+				4EAB16A5E7BECD99FD81F3BF38A9AACD /* OCMNotificationPoster.h in Headers */,
+				ABF1CA8DF3B1EDC332C064EB6AF2CE29 /* OCMObjectReturnValueProvider.h in Headers */,
+				64B0082A9D9999619433248FF66A5563 /* OCMObserverRecorder.h in Headers */,
+				1D29507C7AB770107335A0385F79F53D /* OCMock-umbrella.h in Headers */,
+				B64BEE275231A1BF85A6D19705073E86 /* OCMock.h in Headers */,
+				97B0B97A247A94796B80615A5B6581A8 /* OCMockMacros.h in Headers */,
+				BDB1922B62110B77B98C887127A00EC2 /* OCMockObject.h in Headers */,
+				63603D9F1CAD799DBC905540F2209B84 /* OCMPassByRefSetter.h in Headers */,
+				D79FC473D0EBD2EF7A9B91225761D4BC /* OCMQuantifier.h in Headers */,
+				399757B983FEA4D89FF9CD41382A9553 /* OCMRealObjectForwarder.h in Headers */,
+				9C2F2B2107B864040DB20CF5ED22957D /* OCMRecorder.h in Headers */,
+				DE82B690D3FCA0C9E5F33C958BCEBDFC /* OCMStubRecorder.h in Headers */,
+				1485A79D551A418D9AF6DAA627279088 /* OCMVerifier.h in Headers */,
+				B660894F515F705C348F88DE323028B3 /* OCObserverMockObject.h in Headers */,
+				4301F0E1E773E0B40233452E3E1BBE71 /* OCPartialMockObject.h in Headers */,
+				EF25E233FD332F355A065925D20AC6D8 /* OCProtocolMockObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C955BDCBB796170AB30C25CD44AE9480 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9179F7389AA88FE3B7E0A3489F783032 /* WPPrivateKey.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F337E5D3EEC7526CA2488AABDAAF9E15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8024212DE514679AEBD9FAE37FCA063 /* Pods-Dummy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A2561F1825B0463C6D261C0623BE93C /* Pods-Dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA9F540D177B7136BA4842EEE905BCD /* Build configuration list for PBXNativeTarget "Pods-Dummy" */;
+			buildPhases = (
+				F337E5D3EEC7526CA2488AABDAAF9E15 /* Headers */,
+				9309746B16D3E286C2D419A0C5EAB72F /* Sources */,
+				39BC2F176F0D4DF7E99B547FC3A787A9 /* Frameworks */,
+				8516A6FB258584B6AC38D78EB201BC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F108B38A45334456BBA5934129CA9A /* PBXTargetDependency */,
+				29704DC0239F777E1B9C4B1103F6C3DE /* PBXTargetDependency */,
+			);
+			name = "Pods-Dummy";
+			productName = "Pods-Dummy";
+			productReference = B474AEEAB0EB38823C5A58F6A18506FE /* Pods_Dummy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95125A05C41CD82B02C3D62956C8FC82 /* WorldpayCSE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400F3E19D1D64E5BF764AE2839EB3BCC /* Build configuration list for PBXNativeTarget "WorldpayCSE" */;
+			buildPhases = (
+				0C9883C22C23529B0973A79B052D0ADE /* Headers */,
+				81B78775568F697FD8A187C9F49457EB /* Sources */,
+				7620D828AA583D68D119C6C2FC4E3F82 /* Frameworks */,
+				4513058B7D408DFD68FBD947E820A703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746BBAA27AC082609A54757790858B6A /* PBXTargetDependency */,
+			);
+			name = WorldpayCSE;
+			productName = WorldpayCSE;
+			productReference = 10E3CEF1D13E2244A3E608429F210D10 /* WorldpayCSE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C260B5A26D3CD54F215E5E39371483B6 /* OCMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F739AAFF89CE152027E6463B5A71B906 /* Build configuration list for PBXNativeTarget "OCMock" */;
+			buildPhases = (
+				724FE778C6D1C04F36417EEFCD24D863 /* Headers */,
+				ADAE0CE6C4534C3283F6D73698183099 /* Sources */,
+				DE90C840A3DBEADB6520AF55CD557FDF /* Frameworks */,
+				892CDC8B07BBB0E0322EF531FD05E0FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCMock;
+			productName = OCMock;
+			productReference = F30C125DB91902F63DC73AEF0B0E6111 /* OCMock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8AC647FDA4F7D5B072BE027F5F3BB08 /* WorldpayCSE-Unit-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E663D06B149D59311718B2D2F4A13576 /* Build configuration list for PBXNativeTarget "WorldpayCSE-Unit-Tests" */;
+			buildPhases = (
+				E9818D53502DF02F38645720600E9AD1 /* Sources */,
+				6DF1BC8BC699081E179011066C0165E9 /* Frameworks */,
+				D0D53E364341AA7280045241A0B73BF5 /* Resources */,
+				C955BDCBB796170AB30C25CD44AE9480 /* Headers */,
+				31B37CE4CF5FD33A9DDE44B2FC62BDEC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D01C500BB4379BB13F3FAE556E205DE /* PBXTargetDependency */,
+				D989F928F23423C40968F9C79BCC5387 /* PBXTargetDependency */,
+			);
+			name = "WorldpayCSE-Unit-Tests";
+			productName = "WorldpayCSE-Unit-Tests";
+			productReference = 971601A5D588C5D750206664BCB42DFB /* WorldpayCSE-Unit-Tests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0B5E682918D77B74C3F7C485CB5CA238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C260B5A26D3CD54F215E5E39371483B6 /* OCMock */,
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
+				8A2561F1825B0463C6D261C0623BE93C /* Pods-Dummy */,
+				95125A05C41CD82B02C3D62956C8FC82 /* WorldpayCSE */,
+				E8AC647FDA4F7D5B072BE027F5F3BB08 /* WorldpayCSE-Unit-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4513058B7D408DFD68FBD947E820A703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8516A6FB258584B6AC38D78EB201BC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892CDC8B07BBB0E0322EF531FD05E0FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D53E364341AA7280045241A0B73BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31B37CE4CF5FD33A9DDE44B2FC62BDEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-frameworks-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-frameworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAEA2BAAFED7B7865CB41712646E4160 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OpenSSL-Universal/OpenSSL-Universal-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B78775568F697FD8A187C9F49457EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDDDBE578B0023002C6D207CCFEB1F4 /* AESGCM.m in Sources */,
+				2BF54A2ED4C074D1E7361D56FBEF2DBD /* NSData+Base64URL.m in Sources */,
+				C3297A41A2D1C4738D5B4F532A169905 /* NSDictionary+JSON.m in Sources */,
+				EC04071B83484554212740B9107D400C /* NSError+WP.m in Sources */,
+				8EDBE729CEBB7E487F3D776FF881D6B4 /* NSString+Base64URL.m in Sources */,
+				A4C2E3F2C636E1651CF69186CE155350 /* NSString+WP.m in Sources */,
+				2DEFE619F600595C31D24D2D41C65AC1 /* RSA1_5.m in Sources */,
+				A8EFDDF3AB2932C8703947F2BEF7952B /* WorldpayCSE-dummy.m in Sources */,
+				76CC1E8591AA91BFB8FD415C9843CB74 /* WorldpayCSE.m in Sources */,
+				7B8054BED7489B4EBF661C7F3BD325DD /* WPAESEncrypter.m in Sources */,
+				4ADE7A7488A957576A0B71586677C4B1 /* WPCardData.m in Sources */,
+				C1667CCEDC69192BC8EB56C4F4CF8B2F /* WPCardValidator.m in Sources */,
+				08807197ED98A014AEA1DBEFCC51FA51 /* WPConstants.m in Sources */,
+				E24950B0CDDFB89713CAEDCB7DF5BF40 /* WPCryptoUtils.m in Sources */,
+				EE96841D85328486C3EB16D0A1BAFB66 /* WPJWEHeader.m in Sources */,
+				766A695A7AFFBF0ED75E8B03A569C878 /* WPJWEObject.m in Sources */,
+				12E47F18953F1E18EDB7CD9EE897BF23 /* WPKeyGen.m in Sources */,
+				AD0085DB2DFEC28E97E79EC1879BF4FE /* WPPublicKey.m in Sources */,
+				5C0C7308975F3CD18082C7065AF82CFA /* WPRSAEncrypter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9309746B16D3E286C2D419A0C5EAB72F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90161A069C820E2E471AE18015C6AD1D /* Pods-Dummy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE0CE6C4534C3283F6D73698183099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE832435F09689DD5E7F4247EA90000 /* NSInvocation+OCMAdditions.m in Sources */,
+				2301F1DB2051B4D248CD76590D33476A /* NSMethodSignature+OCMAdditions.m in Sources */,
+				FE499273CD5FDF2978647397C340D169 /* NSNotificationCenter+OCMAdditions.m in Sources */,
+				11B99950370AD7DB1872A8FA5E5868B5 /* NSObject+OCMAdditions.m in Sources */,
+				FC9C73E6B1EFD46F4FEDF74939AF25BF /* NSValue+OCMAdditions.m in Sources */,
+				E61CDE5D657725A2D5949D28730C1428 /* OCClassMockObject.m in Sources */,
+				96E9A32BA8BB2A2A9E6B4A86A91BC2FD /* OCMArg.m in Sources */,
+				E7B514690C6DF9D5F57A0109EC4DB718 /* OCMArgAction.m in Sources */,
+				25BC5F84A5551090053674E6C861B42B /* OCMBlockArgCaller.m in Sources */,
+				A9356B8084965972D46F0518EFCFA61C /* OCMBlockCaller.m in Sources */,
+				368CA44F71CA29BB32D27231E786A683 /* OCMBoxedReturnValueProvider.m in Sources */,
+				06BBDCD9AD5C441CEC7BF33737C996DD /* OCMConstraint.m in Sources */,
+				83F4CFE3C94236BA76A44C1F3E37183F /* OCMExceptionReturnValueProvider.m in Sources */,
+				D2864E607FDB8A191ED0D93A85AF652B /* OCMExpectationRecorder.m in Sources */,
+				DEBDF62414E9C26A55791FE51E186BD8 /* OCMFunctions.m in Sources */,
+				6657A2FFB193C3D6B2725B44223CD79F /* OCMIndirectReturnValueProvider.m in Sources */,
+				87DE5058B49854E31F1044B5290B05E9 /* OCMInvocationExpectation.m in Sources */,
+				004143FEBA52A56C33E5302E32A3961E /* OCMInvocationMatcher.m in Sources */,
+				0C2ADFCBA08883225F1E71214F5F7024 /* OCMInvocationStub.m in Sources */,
+				91117483CACEB86A37276736B95621D8 /* OCMLocation.m in Sources */,
+				44E113646EB3469F1F558A5EAF676C22 /* OCMMacroState.m in Sources */,
+				03C90603116B3DCB3DEB20CF694D6FD1 /* OCMNonRetainingObjectReturnValueProvider.m in Sources */,
+				7793FE54505CE2FE11891DB20AFF9FD4 /* OCMNotificationPoster.m in Sources */,
+				13D5E1209FB8D1616DCB99497D4D81E4 /* OCMObjectReturnValueProvider.m in Sources */,
+				FCEC48BF806D2514D3DD8B9E5A6DAEFE /* OCMObserverRecorder.m in Sources */,
+				60CA64AA9E4CBF16D4F5EB8C6D3DBCDD /* OCMock-dummy.m in Sources */,
+				C6E9B0BB337847C894E2F2BDE7F90D70 /* OCMockObject.m in Sources */,
+				2E3708BDB3AC838683BD39B97E721FEB /* OCMPassByRefSetter.m in Sources */,
+				4834B1385C3B1134B2DD18EB0610D1E7 /* OCMQuantifier.m in Sources */,
+				240D293C87F90A16C0090E687BBC05D5 /* OCMRealObjectForwarder.m in Sources */,
+				A6BA7547BF14B126C4793B5941D96E7E /* OCMRecorder.m in Sources */,
+				6498A4A6BC9DAF699DA58D58B5DCB4DD /* OCMStubRecorder.m in Sources */,
+				5FF4772C36C77DF44043E8E4930D59CC /* OCMVerifier.m in Sources */,
+				748D5F3D6386A6939E9E185C7FD15467 /* OCObserverMockObject.m in Sources */,
+				2888AFC018FA7A1B0F7972EC964B5E45 /* OCPartialMockObject.m in Sources */,
+				4683623A6811AF0C61E4E595C516B675 /* OCProtocolMockObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9818D53502DF02F38645720600E9AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3C1AA762D8EFE83824E8377346AACB /* AESGSMTests.m in Sources */,
+				B0601BA92F8071E62750DDC197AF3773 /* NSDataBase64URLTests.m in Sources */,
+				F32FBD5E704C3DDDDB1B97D449FA17A8 /* NSDictionaryJSONTests.m in Sources */,
+				D52B7A85965204C6C621553D3FEA2C74 /* NSErrorWPTests.m in Sources */,
+				E7EA7894EDCFEEEFDFDBED481E0AE9C2 /* NSStringBase64URLTests.m in Sources */,
+				6B1307E4546586291C706A04B1594F49 /* NSStringWP.m in Sources */,
+				ED9B0A5B1D5117A15379637321134752 /* RSA1_5Tests.m in Sources */,
+				4F313B3857DC5569CEB2E8DF983253E6 /* WorldpayCSETests.m in Sources */,
+				2A6D8544F099CA9472B63861A7A8A2CA /* WPAESEncrypterTests.m in Sources */,
+				AE4797A6AF46655217AFADFEDA055AA6 /* WPCardDataTests.m in Sources */,
+				8CA0C051A06654EE4921BC1024E29262 /* WPCardValidatorTests.m in Sources */,
+				F1C057AB08CA38D3E9DCFF625ED229F3 /* WPCryptoUtilsTests.m in Sources */,
+				DB128FD048E99897F62861E035EC475B /* WPJWEHeaderTests.m in Sources */,
+				2584D28C6F615F47CF80670615A4E5EB /* WPJWEObjectTests.m in Sources */,
+				FD921643A7B79AA15B4470865A302FDE /* WPKeyGenTests.m in Sources */,
+				BEB93E47E00FB3C7CCBFE6828151814D /* WPPrivateKey.m in Sources */,
+				3D62CCC330DC865AC193F678A39D541E /* WPRSAEncrypterTests.m in Sources */,
+				C3CB6934EB88C4D495960210F916062A /* WPRSAPublicKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29704DC0239F777E1B9C4B1103F6C3DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WorldpayCSE;
+			target = 95125A05C41CD82B02C3D62956C8FC82 /* WorldpayCSE */;
+			targetProxy = C878F25BECE2175103DAC45CD391BAD4 /* PBXContainerItemProxy */;
+		};
+		746BBAA27AC082609A54757790858B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = FAF30D623D9FFF4B968F237A97D8A10B /* PBXContainerItemProxy */;
+		};
+		9D01C500BB4379BB13F3FAE556E205DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCMock;
+			target = C260B5A26D3CD54F215E5E39371483B6 /* OCMock */;
+			targetProxy = EDCF073AAE7AE4F2CD2330C4D97BB937 /* PBXContainerItemProxy */;
+		};
+		C5F108B38A45334456BBA5934129CA9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = CBC10FE46F69C286BAE844FE9472C478 /* PBXContainerItemProxy */;
+		};
+		D989F928F23423C40968F9C79BCC5387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WorldpayCSE;
+			target = 95125A05C41CD82B02C3D62956C8FC82 /* WorldpayCSE */;
+			targetProxy = 6443B0DFDBD363019CF3CA74B0A02C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1599B3FDD7C3CFC36A6370B77753F638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A63A4B49293808F0F335049EBDCF9FF /* WorldpayCSE.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorldpayCSE/WorldpayCSE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorldpayCSE/WorldpayCSE-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WorldpayCSE/WorldpayCSE.modulemap";
+				PRODUCT_MODULE_NAME = WorldpayCSE;
+				PRODUCT_NAME = WorldpayCSE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18928A2A116576DC4013416628648D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDFC187270304D19E1265C5E8197A09 /* WorldpayCSE.unit-tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "WorldpayCSE-Unit-Tests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2FBB42655E59C15CE76E4219B61F7274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0509F3D0E448554F0BCFE898F2C9F2B /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		416A32FD7F6A297C9B17188C1050A525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F5E8D443A00959AC013685E32F3F25 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51883CF1BF63A5CA20B390BFAB094FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80986C9001539666F78BF3EECAC68D4 /* Pods-Dummy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dummy/Pods-Dummy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dummy/Pods-Dummy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		589AC0C533D8E1C1C531A07FEEA2C7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699DBC99FB3EE502E566D63B28340057 /* WorldpayCSE.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorldpayCSE/WorldpayCSE-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorldpayCSE/WorldpayCSE-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WorldpayCSE/WorldpayCSE.modulemap";
+				PRODUCT_MODULE_NAME = WorldpayCSE;
+				PRODUCT_NAME = WorldpayCSE;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58BB86DA09D0499CDCFE4B7117CCBDCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC90B98DB1DA489AB4F5BF479CF0A3E8 /* Pods-Dummy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Dummy/Pods-Dummy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Dummy/Pods-Dummy.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C70255A1134458492CF7F5B297400189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFF3995008EABA611EAAE74A17A777F /* OCMock.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCMock/OCMock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCMock/OCMock.modulemap";
+				PRODUCT_MODULE_NAME = OCMock;
+				PRODUCT_NAME = OCMock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D176BF4E738F0C3DD5D1E28698FC7C73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1938F5EE585F54725C316D2E21DA82F /* OCMock.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCMock/OCMock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCMock/OCMock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OCMock/OCMock.modulemap";
+				PRODUCT_MODULE_NAME = OCMock;
+				PRODUCT_NAME = OCMock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FDB04C3F2FF11A24878761FC0607C605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0353836754BF13D132B1103298AD4121 /* WorldpayCSE.unit-tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorldpayCSE/WorldpayCSE-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "WorldpayCSE-Unit-Tests";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		400F3E19D1D64E5BF764AE2839EB3BCC /* Build configuration list for PBXNativeTarget "WorldpayCSE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				589AC0C533D8E1C1C531A07FEEA2C7A8 /* Debug */,
+				1599B3FDD7C3CFC36A6370B77753F638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA9F540D177B7136BA4842EEE905BCD /* Build configuration list for PBXNativeTarget "Pods-Dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51883CF1BF63A5CA20B390BFAB094FB2 /* Debug */,
+				58BB86DA09D0499CDCFE4B7117CCBDCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D72BC345233EADF30A97D462F723B7 /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416A32FD7F6A297C9B17188C1050A525 /* Debug */,
+				2FBB42655E59C15CE76E4219B61F7274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E663D06B149D59311718B2D2F4A13576 /* Build configuration list for PBXNativeTarget "WorldpayCSE-Unit-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18928A2A116576DC4013416628648D3A /* Debug */,
+				FDB04C3F2FF11A24878761FC0607C605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F739AAFF89CE152027E6463B5A71B906 /* Build configuration list for PBXNativeTarget "OCMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70255A1134458492CF7F5B297400189 /* Debug */,
+				D176BF4E738F0C3DD5D1E28698FC7C73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

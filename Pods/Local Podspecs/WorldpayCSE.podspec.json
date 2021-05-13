@@ -1,0 +1,45 @@
+{
+  "name": "WorldpayCSE",
+  "version": "1.0.3",
+  "summary": "Worldpay Client Side Encryption library",
+  "license": {
+    "type": "Worldpay",
+    "file": "LICENSE"
+  },
+  "authors": "Worldpay",
+  "homepage": "https://github.com/Worldpay/worldpay-cse-lib-ios",
+  "description": "Worldpay Client Side encryption library for easy integration with your existing and new applications.",
+  "documentation_url": "http://support.worldpay.com/support/kb/gg/client-side-encryption/Content/A%20-%20Home/Home.htm",
+  "source": {
+    "git": "https://github.com/Worldpay/worldpay-cse-lib-ios.git",
+    "tag": "1.0.3"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "OpenSSL-Universal": [
+      "1.1.1100"
+    ]
+  },
+  "source_files": "WorldPayCSE/WorldPayCSE/**/*.{h,m}",
+  "public_header_files": [
+    "WorldPayCSE/WorldPayCSE/WorldPayCSE.h",
+    "WorldPayCSE/WorldPayCSE/WPErrorCodes.h",
+    "WorldPayCSE/WorldPayCSE/WPConstants.h",
+    "WorldPayCSE/WorldPayCSE/crypto/WPPublicKey.h",
+    "WorldPayCSE/WorldPayCSE/model/WPCardData.h"
+  ],
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "dependencies": {
+        "OCMock": [
+          "3.8.1"
+        ]
+      },
+      "source_files": "WorldpayCSE/WorldpayCSETests/**/*.{m,h}"
+    }
+  ]
+}

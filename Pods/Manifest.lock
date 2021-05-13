@@ -1,0 +1,32 @@
+PODS:
+  - OCMock (3.8.1)
+  - OpenSSL-Universal (1.1.1100)
+  - WorldpayCSE (1.0.3):
+    - OpenSSL-Universal (= 1.1.1100)
+  - WorldpayCSE/Tests (1.0.3):
+    - OCMock (= 3.8.1)
+    - OpenSSL-Universal (= 1.1.1100)
+
+DEPENDENCIES:
+  - OpenSSL-Universal (from `.`)
+  - WorldpayCSE (from `.`)
+  - WorldpayCSE/Tests (from `.`)
+
+SPEC REPOS:
+  trunk:
+    - OCMock
+
+EXTERNAL SOURCES:
+  OpenSSL-Universal:
+    :path: "."
+  WorldpayCSE:
+    :path: "."
+
+SPEC CHECKSUMS:
+  OCMock: 29f6e52085b4e7d9b075cbf03ed7c3112f82f934
+  OpenSSL-Universal: cb601613dd69f6d379e466a7bbf47e35e28b53d2
+  WorldpayCSE: e2df3295fd1b76e620911f8c93f6de539637e881
+
+PODFILE CHECKSUM: 69c52bdbbe25dcd4123f58ca73f6b94ccefa57ce
+
+COCOAPODS: 1.10.1
